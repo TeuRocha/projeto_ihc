@@ -51,3 +51,16 @@ Os CACs (Colecionadores, atiradores e caçadores), policiais, pessoas com porte 
 - Equipamentos e Configuração: O usuário utiliza um Smartphone posicionada com um tripé a curta distância do alvo (aproximadamente 2 metros), que transmite o sinal de vídeo via wi-fi para um notebook atrás da linha de tiro, o alvo deve conter marcador fiduciais (ArUco) para permitir a coreção de perspectiva e escala.
 - Tarefa: O atirador realiza disparos em direção ao centro do alvo (POA), o sistema processa a imagem do impacto e fornece, em menos de 5 segundos, o feedback visual e numérico da correção necessária em "cliques" nas torres da luneta.
 - Contexto Social/Econômico: Uma solução nacional de baixo custo voltada para tornar o esporte mais acessível no Brasil, reduzindo a dependência de tecnologias importadas de alto valor e simplificando um processo que tradicionalmente é feito por tentativa e erro.
+
+# SEGUNDA ENTREGA - ANÁLISE DE CONCORRÊNCIA
+Chairgun Elite, Hornady, Lapus Ballistics e Ballistic-X.
+
+Padrões encontrados:
+- Definição da arma utilizada;
+- Tabelas e gráficos como guia;
+- Campos para preencher dados de equipamentos e ambiente;
+- Sistema de login e cadastro;
+- Possibilidade de alterar unidades de medidas;
+- Páginas com tons mais escuros.
+
+Possibilidade competitiva além das calculadoras balísticas, com miras a laser, possível incrementação da tecnologia no TCC.
