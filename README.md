@@ -19,7 +19,7 @@ Calcular a calibração da luneta do usuário, e guiar ele para concluir sua cal
 Um sistema de interface simples para obter do usuário a informação da distância que ele deseja calibrar sua luneta, e retornar o feedback o mais preciso e rápido possível.
 
 ### Quem é o usuário final deste produto?
-Os CACs (Colecionadores, atiradores e caçadores), policiais, pessoas com porte de arma.
+Os CACs (Colecionadores, atiradores e caçadores), policiais, pessoas com porte de arma, jogadores de airsoft com uso de lunetas, qualquer usuário dentro da lei que deseja calibrar sua luneta.
 
 ### O que o usuário recebe de benefício ao usar esse produto?
 - Menos gasto de munição, consequentemente menos gasto financeiro;
