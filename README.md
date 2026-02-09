@@ -84,6 +84,18 @@ Possibilidade competitiva além das calculadoras balísticas, com miras a laser,
 ![balilistic (2)](https://github.com/user-attachments/assets/5388ea3a-5f4c-4d57-9924-cafb20ddd10c)
 ![balilistic (3)](https://github.com/user-attachments/assets/be9c9942-9b00-4c40-a90b-76121ab6609c)
 
+# Segunda entrega
 
+## PERSONAS
+
+### PERSONAS PRIMÁRIAS:
+- Márcio, policial civil
+- Alessandra, policial aposentada
+
+### PERSONA SECUNDÁRIA:
+- Lourdes, secretária do clube de tiro
+
+### PERSONA NEGATIVA:
+- Henrique, aposentado, objetivo: busca por algo que o faça sentir-se forte na idade atual
 
 
