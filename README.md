@@ -88,8 +88,14 @@ Possibilidade competitiva além das calculadoras balísticas, com miras a laser,
 
 ## PERSONAS
 
-### PERSONAS PRIMÁRIAS:
-- Márcio, policial civil
+- Identidade: Márcio Rocha, 45 anos.
+- Status: Primária.
+- Objetivos: Aposentar, continuar atirando.
+- Habilidades: Mestre de capoeira, atirador de elite.
+- Tarefas: Escolta de presos, operações especiais, ronda em todo estado de São Paulo, frequência dia sim, dia não.
+- Relacionamentos: Divorciado, com dois filhos.
+- Requisitos: Sistema que entregue um feedback correto em um único uso.
+- Expectativas: Um sistema simples que com um disparo receba o feedback corretamente.
 - Alessandra, policial aposentada
 
 ### PERSONA SECUNDÁRIA:
