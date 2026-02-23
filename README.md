@@ -233,3 +233,12 @@ No laboratório da faculdade, enquanto compila um código para seu projeto de jo
 Lucas chega ao clube e faz o aluguel de uma arma disponível. Como não é um equipamento que ele conhece a fundo, ele se sente um pouco inseguro sobre como a luneta foi deixada pelo usuário anterior.
 Ele posiciona o smartphone e o notebook. O sistema atua como seu instrutor. A cada clique que o software sugere, Lucas sente que está "subindo de nível". Ele agrupa os tiros no centro do alvo e tira uma foto da tela do notebook para mostrar aos amigos do curso.
 Lucas devolve o armamento no balcão do clube, sentindo que aproveitou cada centavo da munição cara que comprou. Ele chega em casa, abre seu computador e anota as observações da experiência, satisfeito por ter dominado a máquina sem depender de ninguém.
+
+# Quarta entrega
+
+## Cenário Problema:
+
+### Tela de Cadastro:
+Ambiente ou contexto: O usuário está fisicamente no estande de tiro, em uma baia de tiro, ele arruma todo seu equipamento para efetuar o disparo, e com o auxilio de uma calculadora ballística, o usuário preenche todas as informações do ambiente para poder enfim efetuar o disparo, e iniciar a busca pelo ponto zero da calibração.
+Ator: Persona Márcio Rocha
+Objetivo: ? é com problema 
