@@ -188,7 +188,7 @@ Satisfeita com o agrupamento perfeito no centro do alvo, ela limpa e guarda seu 
 
 ### Lucas Mendes, formando em jogos digitais
 - Idade: 23 anos
-- Status: Persona Primária.
+- Status: Primária.
 - Objetivos: Aprender a zerar sua luneta sozinho, economizar munição (alto custo para iniciantes) e ganhar confiança no esporte.
 - Habilidades: Nativo digital, familiarizado com interfaces de jogos e aplicativos de alta performance; pouca experiência com mecânica de armas e cálculos balísticos manuais.
 - Tarefas: Prática de tiro de precisão nos finais de semana, estudo de manuais digitais e participação em comunidades online de CACs.
@@ -236,9 +236,11 @@ Lucas devolve o armamento no balcão do clube, sentindo que aproveitou cada cent
 
 # Quarta entrega
 
-## Cenário Problema:
+## Cenário Problema
 
-### Tela de Cadastro:
-Ambiente ou contexto: O usuário está fisicamente no estande de tiro, em uma baia de tiro, ele arruma todo seu equipamento para efetuar o disparo, e com o auxilio de uma calculadora ballística, o usuário preenche todas as informações do ambiente para poder enfim efetuar o disparo, e iniciar a busca pelo ponto zero da calibração.
-Ator: Persona Márcio Rocha
-Objetivo: ? é com problema 
+### Cadastro, Login e Assinatura
+
+#### Atores: Márcio Rocha (Policial Civil)
+
+Márcio Rocha chega clube de tiro após o serviço, com o objetivo de calibrar sua luneta recém comprada, ele que ser rápido pois já é tarde e trabalha cedo no dia seguinte, aluga a baia e se dirige até o seu estande, antes de iniciar os testes, ele pega seu smartphone para se cadastrar no aplicativo recomendado pelos colegas de trabalho, ele preenche todos os campos obrigatórios e efetua o login, porém tem que pagar uma assinatura para utilizar o aplicativo na totalidade, irritado e com pressa ele preenche os dados para o pagamento, e enfim consegue logar na sua conta recém criada, essa conta que solicita muitos dados de cálculo para funcionar devidamente.
+
