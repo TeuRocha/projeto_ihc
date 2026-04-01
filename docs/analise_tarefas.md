@@ -2,7 +2,7 @@
 
 # HTA
 
-![hta](docs\images\hta.png)
+<img width="1872" height="766" alt="hta" src="https://github.com/user-attachments/assets/b3e3b80c-1958-42bf-8c2f-2c6cb55d4780" />
 
 ## Objetivos/Operações
 
@@ -99,4 +99,4 @@ GOAL 0: Calibrar luneta
 
 # CTT
 
-![ctt](docs\images\ctt.png)
+<img width="1871" height="654" alt="ctt" src="https://github.com/user-attachments/assets/04da33d3-076d-4556-884c-6839b9ee47c7" />
