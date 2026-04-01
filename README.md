@@ -1,6 +1,6 @@
 # Projeto de Interface Humano-Computador
 
-Projeto apresentado ao Centro Universitário [FEI](https://portal.fei.edu.br/), como parte dos requisitos necessários para aprovação na disciplina de Interface Humano-Computador (CC8122) do curso de Ciencia da Computação, orientado pelo Prof. Dr. [Plino Thomaz Aquino Junior](http://lattes.cnpq.br/6186413528999908).
+Projeto apresentado ao Centro Universitário [FEI](https://portal.fei.edu.br/), como parte dos requisitos necessários para aprovação na disciplina de Interface Humano-Computador (CC8122) do curso de Ciencia da Computação, orientado pelo Prof. Dr. [Plinio Thomaz Aquino Junior](http://lattes.cnpq.br/6186413528999908).
 
 ## Membros da Equipe:
 - Mateus Rocha
@@ -56,7 +56,7 @@ Os CACs (Colecionadores, atiradores e caçadores), policiais, pessoas com porte 
 - Contexto Social/Econômico: Uma solução nacional de baixo custo voltada para tornar o esporte mais acessível no Brasil, reduzindo a dependência de tecnologias importadas de alto valor e simplificando um processo que tradicionalmente é feito por tentativa e erro.
 
 # Desenvolvimento:
-- [Análise de Concorência](docs/analise_concorrencia.md)
+- [Análise de Concorrência](docs/analise_concorrencia.md)
 - [Personas](docs/personas.md)
 - [Cenário de Análise/Problema](docs/cenario_analise_problema.md)
 - [Análide de Tarefas](docs/analise_tarefas.md)
