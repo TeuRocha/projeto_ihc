@@ -56,9 +56,9 @@ Os CACs (Colecionadores, atiradores e caçadores), policiais, pessoas com porte 
 - Contexto Social/Econômico: Uma solução nacional de baixo custo voltada para tornar o esporte mais acessível no Brasil, reduzindo a dependência de tecnologias importadas de alto valor e simplificando um processo que tradicionalmente é feito por tentativa e erro.
 
 # Desenvolvimento:
-- [Análise de Concorência](docs/analise_concorencia.md)
+- [Análise de Concorência](docs/analise_concorrencia.md)
 - [Personas](docs/personas.md)
-- [Cenário de Análise/Problema](docs/cenario_analise.md)
+- [Cenário de Análise/Problema](docs/cenario_analise_problema.md)
 - [Análide de Tarefas](docs/analise_tarefas.md)
 - [Prototipação em Papel](docs/prototipacao_papel.md)
 - [Coleta de Dados](docs/coleta_dados.md)
