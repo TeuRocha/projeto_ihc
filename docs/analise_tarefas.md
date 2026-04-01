@@ -2,7 +2,7 @@
 
 # HTA
 
-
+![hta](docs\images\hta.png)
 
 ## Objetivos/Operações
 
@@ -81,3 +81,4 @@ GOAL 0: Calibrar luneta
 
 # CTT
 
+![ctt](docs\images\ctt.png)

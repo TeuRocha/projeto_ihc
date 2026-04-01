@@ -1,4 +1,6 @@
-# projeto_ihc
+# Projeto de Interface Humano-Computador
+
+Projeto apresentado ao Centro Universitário [FEI](https://portal.fei.edu.br/), como parte dos requisitos necessários para aprovação na disciplina de Interface Humano-Computador (CC8122) do curso de Ciencia da Computação, orientado pelo Prof. Dr. [Plino Thomaz Aquino Junior](http://lattes.cnpq.br/6186413528999908).
 
 ## Membros da Equipe:
 - Mateus Rocha
@@ -53,8 +55,17 @@ Os CACs (Colecionadores, atiradores e caçadores), policiais, pessoas com porte 
 - Tarefa: O atirador realiza disparos em direção ao centro do alvo (POA), o sistema processa a imagem do impacto e fornece, em menos de 5 segundos, o feedback visual e numérico da correção necessária em "cliques" nas torres da luneta.
 - Contexto Social/Econômico: Uma solução nacional de baixo custo voltada para tornar o esporte mais acessível no Brasil, reduzindo a dependência de tecnologias importadas de alto valor e simplificando um processo que tradicionalmente é feito por tentativa e erro.
 
-# SEGUNDA ENTREGA - ANÁLISE DE CONCORRÊNCIA
-
-# Terceira entrega
-
-# Quarta entrega
+# Desenvolvimento:
+- [Análise de Concorência](docs/analise_concorencia.md)
+- [Personas](docs/personas.md)
+- [Cenário de Análise/Problema](docs/cenario_analise.md)
+- [Análide de Tarefas](docs/analise_tarefas.md)
+- [Prototipação em Papel](docs/prototipacao_papel.md)
+- [Coleta de Dados](docs/coleta_dados.md)
+- [Ciclo de vida da engenharia de usabilidade](docs/ciclo_vida_usabilidade.md)
+- [Modelo Conceitual](docs/modelo_conceitual.md) 
+- [MOLIC](docs/molic.md)
+- [FIGMA](docs/figma.md)
+- [Planejamento da Avaliação](docs/planejamento_avaliacao.md)
+- [Avaliação de IHC através de Inspeção Heurística](docs/avaliacao_ihc_heuristica.md)
+- [Avaliação de Usabilidade baseado em Observação do Usuário](docs/avaliacao_usabilidade_usuario.md)
