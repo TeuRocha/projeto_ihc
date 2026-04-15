@@ -69,3 +69,5 @@ Os CACs (Colecionadores, atiradores e caçadores), policiais, pessoas com porte 
 - [Planejamento da Avaliação](docs/planejamento_avaliacao.md)
 - [Avaliação de IHC através de Inspeção Heurística](docs/avaliacao_ihc_heuristica.md)
 - [Avaliação de Usabilidade baseado em Observação do Usuário](docs/avaliacao_usabilidade_usuario.md)
+- [Capacidades e Restrições](docs/capacidades_restricoes.md)
+- [Metas de Usabilidade](docs/metas_usabilidade.md)
