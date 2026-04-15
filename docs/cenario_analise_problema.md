@@ -79,16 +79,13 @@ Lucas Mendes, preocupado com o custo das munições gastas [3], utiliza a Visão
 
 | Tópico > Subtópico (diálogo) | Falas e Signos |
 | ----- | ----- |
-| Calibrar Luneta | U: Preciso cadastrar minha luneta |
+| Calibrar Luneta | U: Preciso cadastrar minha luneta. |
 | > Informar dados de login | D: Qual o seu login e senha? |
-| > Definir distância da calibração | U: Quero definir a distância para 10 metros.
-D: Distância definida. |
+| > Definir distância da calibração | U: Quero definir a distância para 10 metros. <br> D: Distância definida. |
 | > Posicionar câmera | D: Posicione a câmera até a detecção dos marcadores ArUcos. |
-| > Definir POA | U: Quero definir o POA em algum ponto do alvo.
-D: Clique em algum ponto do alvo para definir seu POA. |
-| > Definir imagem de referência | U: Preciso definir uma imagem de referência para homografia
-D: Pressione "r" para definir a referência |
-| Efetuar disparo | U: Efetuei o disparo, necessito do feedback |
+| > Definir POA |  U: Devo definir o POA em algum ponto específico do alvo? <br> D: Clique em qualquer ponto do alvo para definir tal ponto como seu POA. |
+| > Definir imagem de referência | U: Preciso definir uma imagem de referência para homografia. <br> D: Pressione "r" para definir a referência. |
+| Efetuar disparo | U: Efetuei o disparo, necessito do feedback. |
 | > Captar imagem para subtração | D: Digite "s" para definir a imagem para subtração. |
 | > Informar resultado | D: Faça X cliques para direção Y para calibrar sua luneta. |
 | Confirmar calibração | U: Calibração correta. |
