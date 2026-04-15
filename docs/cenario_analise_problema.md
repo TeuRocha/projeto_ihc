@@ -74,3 +74,21 @@ Após o serviço, Márcio Rocha chega ao clube de tiro com sua luneta recém-com
 No estande, Alessandra Pinheiro posiciona seu armamento para a distância de 25 metros [3]. Ao interagir com o sistema, ela não se depara com tabelas complexas ou solicitações de dados ambientais e técnicos do projétil [1, 2]. O sistema utiliza os marcadores ArUco no alvo para realizar a compensação automática de escala e perspectiva [5], exigindo apenas que Alessandra confirme a distância no campo de texto com fontes ampliadas para facilitar sua leitura [4]. Ao finalizar a configuração simples, o sistema dispara o início do monitoramento de vídeo [6].
 
 Lucas Mendes, preocupado com o custo das munições gastas [3], utiliza a Visão Top-Down do sistema em seu notebook para guiar seu ajuste [4]. Ele marca o ponto onde mirou (POA) com um clique e o software processa os dados de imagem para converter a diferença física em comandos semânticos de "cliques" [2]. Em vez de apresentar termos técnicos confusos como MIL ou MOA [1], o sistema exibe instruções diretas de direção para as torres da luneta, eliminando o erro de Lucas e garantindo que o próximo disparo atinja o centro [1].
+
+## Design Centrado na Comunicação
+
+| Tópico > Subtópico (diálogo) | Falas e Signos |
+| ----- | ----- |
+| Calibrar Luneta | U: Preciso cadastrar minha luneta |
+| > Informar dados de login | D: Qual o seu login e senha? |
+| > Definir distância da calibração | U: Quero definir a distância para 10 metros.
+D: Distância definida. |
+| > Posicionar câmera | D: Posicione a câmera até a detecção dos marcadores ArUcos. |
+| > Definir POA | U: Quero definir o POA em algum ponto do alvo.
+D: Clique em algum ponto do alvo para definir seu POA. |
+| > Definir imagem de referência | U: Preciso definir uma imagem de referência para homografia
+D: Pressione "r" para definir a referência |
+| Efetuar disparo | U: Efetuei o disparo, necessito do feedback |
+| > Captar imagem para subtração | D: Digite "s" para definir a imagem para subtração. |
+| > Informar resultado | D: Faça X cliques para direção Y para calibrar sua luneta. |
+| Confirmar calibração | U: Calibração correta. |
