@@ -100,7 +100,3 @@ GOAL 0: Calibrar luneta
 # CTT
 
 <img width="1871" height="654" alt="ctt" src="https://github.com/user-attachments/assets/04da33d3-076d-4556-884c-6839b9ee47c7" />
-
-# Mapa de Objetivos do Usuário
-
-<img width="696" height="887" alt="mapa" src="https://github.com/user-attachments/assets/8bb37d10-896b-4968-91f8-0aab06ef9f41" />
