@@ -13,19 +13,21 @@ Lucas Mendes, preocupado com o custo das munições gastas [3], utiliza a Visão
 | Tópico > Subtópico (diálogo) | Falas e Signos |
 | ----- | ----- |
 | Calibrar Luneta | U: Preciso cadastrar minha luneta. |
-| > Informar dados de login | D: Qual o seu login e senha? |
-| > Definir distância da calibração | U: Quero definir a distância para 10 metros. <br> D: Distância definida. |
+| > Efetuar login | D: Qual o seu login e senha? <br> U: Preencho os campos obrigatórios para logar no sistema. |
+| > Definir distância da calibração | D: Deseja definir para qual distância a calibração?. <br> U: Quero definir a distância para 10 metros. |
+| > Preparar alvo | D: Prepare o alvo na distância definida, e com os marcadores postos em suas extremidades. |
 | > Posicionar câmera | D: Posicione a câmera até a detecção dos marcadores ArUcos. |
-| > Definir POA |  U: Devo definir o POA em algum ponto específico do alvo? <br> D: Clique em qualquer ponto do alvo para definir tal ponto como seu POA. |
-| > Definir imagem de referência | U: Preciso definir uma imagem de referência para homografia. <br> D: Pressione "r" para definir a referência. |
+| > Definir POA | D: Agora defina o seu POA dentro dos marcadores ArUcos. <br> U: Defini o POA distante do centro. <br> D: POA definido com sucesso. |
+| > Definir imagem de referência | D: Pressione o botão "Salvar Referência" para definir a referência dos cálculos. |
 | Efetuar disparo | U: Efetuei o disparo, necessito do feedback. |
-| > Captar imagem para subtração | D: Digite "s" para definir a imagem para subtração. |
-| > Informar resultado | D: Faça X cliques para direção Y para calibrar sua luneta. |
-| Confirmar calibração | U: Calibração correta. |
+| > Confirmar POI | D: O POI sinalizado está correto? <br> U: Sim, está. <br> D: Estou processando os cálculos para correção da mira. |
+| > Informar resultado | D: Faça X cliques para direção Y para calibrar sua mira. <br> U: Estou corrigindo a mira. |
+| Efetuar disparo corrigido | U: A calibração foi certeira. |
+| Confirmar calibração | D: A calibração foi realizada com sucesso? <br> U: Sim, calibração correta. |
 
 ## Mapa de Objetivos do Usuário
 
-<img width="696" height="887" alt="mapa" src="https://github.com/user-attachments/assets/8bb37d10-896b-4968-91f8-0aab06ef9f41" />
+<img width="711" height="930" alt="mapacore" src="https://github.com/user-attachments/assets/5a786ed1-bfa3-4da1-a0f8-5c59789d9c55" />
 
 ## Tabela de Configuração de Calibração
 | Configuração de Calibração (C) \- dados para calcular a calibração no sistema|  |  |  |  |  |  |  |
