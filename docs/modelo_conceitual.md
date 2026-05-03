@@ -29,31 +29,42 @@ Lucas Mendes, preocupado com o custo das munições gastas [3], utiliza a Visão
 
 <img width="711" height="930" alt="mapacore" src="https://github.com/user-attachments/assets/5a786ed1-bfa3-4da1-a0f8-5c59789d9c55" />
 
+## Tabela de Acesso
+| Acesso (A) \- dados para acessar o sistema |  |  |  |  |  |  |  |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| **signo** | **origem** | **observações** | **Tipo de conteúdo** | **restrição sobre conteúdo** | **valor default** | **prevenção** | **recuperação** |
+| Usuário | Domínio | Campo de login obrigatório (*) | Texto | Não pode ser nulo |  | PP: Campo marcado como obrigatório | RA: "Usuário ou senha incorretos. Tente novamente." |
+| Senha | Domínio | Campo de login obrigatório (*) | texto (protegido) | Não pode ser nulo |  | PP: Campo marcado como obrigatório | RA: "Usuário ou senha incorretos. Tente novamente." |
+| Nome | Domínio | Campo de login obrigatório (*) | Texto | Não pode ser nulo |  | PP: Campo marcado como obrigatório | RA: "Algum dos dados está incorreto." |
+| E-mail |  Domínio | Campo de login obrigatório (*) | Texto (formato e-mail) | Não pode ser nulo; formato válido |  | PP: Campo marcado como obrigatório | RA: "Algum dos dados está incorreto." |
+| Confirmar senha | Domínio | Campo de login obrigatório (*) | Texto (formato e-mail) | Não pode ser nulo; formato válido |  | PP: Campo marcado como obrigatório | RA: "Algum dos dados está incorreto." |
+
 ## Tabela de Configuração de Calibração
-| Configuração de Calibração (C) \- dados para calcular a calibração no sistema|  |  |  |  |  |  |  |
+| Configuração (C) \- dados para configurar distância no sistema |  |  |  |  |  |  |  |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
 | **signo** | **origem** | **observações** | **Tipo de conteúdo** | **restrição sobre conteúdo** | **valor default** | **prevenção** | **recuperação** |
-| +Distância | Domínio | Distância real entre o atirador e o alvo para cálculo de MOA | Número decimal |  Não pode ser nulo ou negativo | 10,0 | PP: dica visual "(metros)", PA: Bloqueio de caracteres não númericos | RA: Mensagem de erro se o campo estiver vazio ao calcular |
-| Tamanho do ArUco | Domínio | Medida real do lado do marcador impresso para escala de pixels | Número decimal | Deve ser um valor real em centímetros | 3,0 | PP: Instrução "Meça o marcador com um régua" | RA: Alerta se o valor inserido for discrepante da escala detectada |
-| Status da Câmera | Aplicação | Indica se o sinal de vídeo do smartphone está ativo no PC | Estado (Texto/Ícone) | {Conectado, Desconectado} | Desconectado | PA: Desabilita botões de captura se o status for "Desconectado" | CE: Instrução "Verifique a conexão Wi-Fi ou IP do smartphone" |
-| Ponto de Mira (POA) | Aplicação | Coordenada do centro do alvo definida pelo clique do usuário | Coordenada (x,y) | Deve estar dentro da área delimitada pelos ArUcos |  | PA: Impedir a fixação do ponto fora da área do alvo | RA: Opção "Redefinir POA" para novo clique se houver erro de marcação |
-| Valor do Clique | Domínio Z Sensibilidade da luneta (ex: 1/4 MOA) para cálculo de correção | Seleção simples | {1/2, 1/4, 1/8} | 1/4 | PA: Seleção obrigatória através de menu dropdown |  |
+| Distância de calibração | Domínio/UI | Valor em metros obrigatório (*) | Numéro decimal | Valor válido para calibração (ex: 10.0); não nulo |  | PP: Placeholder "ex: 10.0" exibido no campo | RA: "Valor inválido para calibração." |
 
-## Tabela de Resultado do Disparo
-| Resultado do Disparo (R) \- dados para verificar disparo |  |  |  |  |  |  |  |
-| :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
-| **signo** | **origem** | **observações** | **Tipo de conteúdo** | **restrição sobre conteúdo** | **valor default** | **prevenção** | **recuperação** |
-| Ponto de Impacto (POI) | Aplicação | Coordenada do furo detectada automaticamente via subtração de imagens | Coordenada (x, y) | Deve estar dentro da área útil do alvo delimitada pelos ArUcos | - | PA: Bloqueia a detecção se a imagem de referência ('r') não existir | RA: Permite ao usuário clicar manualmente no furo caso a detecção automática falhe |
-| Desvio Linear | Aplicação | Distância real calculada entre o POA e o POI em centímetros | Número decimal | Valor deve ser maior ou igual a zero | 0,0 | PP: Exibição clara da unidade de medida (cm) ao lado do valor | = |
-| Ajuste de Cliques | Domínio | Resultado final da calibração informando a direção e quantidade de giros na luneta | Texto | - | "0 cliques" | PA: Só realizar o cálculo se a 'Distância' e o 'Valor do Clique' estiverem preenchidos | - |
-| Imagem de Subtração | Aplicação | Frame processado que destaca o novo furo (impacto) para validação visual do atirador | Imagem | - | - | PP: Legenda informativa "Destaque do impacto detectado" | CE: Mensagem "Ruído visual excessivo: verifique a estabilidade da câmera" |
-| Status de Detecção | Aplicação | Feedback textual sobre o sucesso ou falha do algoritmo de visão computacional | Seleção simples | {Sucesso, Falha, Aguardando} | Aguardando | PP: Barra de status com cores (Verde/Vermelho) para feedback imediato | RA: Sugestão de "Tente aproximar o alvo da câmera para melhor contraste" |
-Valor de MOA Calculado | Aplicação | Conversão do desvio linear para medida angular baseada na distância informada | Número decimal | - | 0,0 | PP: Exibição do valor com precisão de duas casas decimais | - |
 
-## Tabela de Equipamento
-| Equipamento (E) \- dados para definir clique |  |  |  |  |  |  |  |
+## Tabela de Interação e Captura
+| Interação e Captura (IC) \- interação do usuário para captura de dados |  |  |  |  |  |  |  |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
 | **signo** | **origem** | **observações** | **Tipo de conteúdo** | **restrição sobre conteúdo** | **valor default** | **prevenção** | **recuperação** |
-| Valor do Clique | Domínio | Sensibilidade de ajuste das torres da luneta (essencial para o cálculo final) | Seleção simples | {1/2 MOA, 1/4 MOA, 1/8 MOA, 0,1 MIL} | 1/4 MOA | PA: Seleção obrigatória; o sistema não calcula sem este dado | RA: Alerta caso o valor não seka compatível com a distância informada |
-| Unidade de Medida | Domónio | Define se a correção será exibida em MOA (Minuto de Ângulo) ou MIL (Miliradiano) | Seleção simples | {MOA, MIL} | MOA | PP: Explicação sobre a diferença entre as unidades | - |
-| Sentido de Rotação | Domínio | Define se o ajuste físico é no sentido horário (CW) ou anti-horário (CCW) | Seleção simples | {CW, CCW} | CW | AL: Confirmação "Sua luneta gira no sentido horário para subir o impacto?" | - |
+| Imagem em tempo real da câmera | Sistema | Feed ao vivo exibido na cena "Definir POA" | Imagem (stream) | Câmera deve estar ativa e com alvo enquadrado |  | PP: Instrução para preparar alvo antes de acessar a cena | RA: Verificar conexão/posição da câmera |
+| Status de detecção dos ArUcos | Sistema | Indicador exibido sobre a imagem | Texto/ícone | Marcadores devem estar visíveis no campo da câmera | Não detectado | PP: Instrução de posicionamento exibida ao usuário | RA: Sistema exibe status negativo; usuário reposiciona alvo |
+| Marcação do POA | Domínio/UI | Clique do usuário dentro do bloco verde na imagem | Coordenada (x,y) | Deve estar dentro da área delimitada pelo bloco verde |  | PP: Bloco verde destaca a área válida para clique | RA: "Erro, clique fora da área do alvo! Clique dentro do bloco verde." |
+| Imagem de referência | Sistema | Capturada ao clicar no botão "Salvar referência" | Imagem estática | Câmera estável; alvo visível com ArUcos detectados |  | PP: Mensagem de sucesso do POA exibida antes de liberar o botão | RA: "Não foi possível salvar a imagem. Tente novamente." |
+| POI sinalizado | Sistema | Calculado por subtração entre imagem de referência e imagem pós-disparo | Coordenada (x,y) sonreposta na imagem | Furo de impacto deve ser detectável; sem ruído excessivo |  | PP: Instrução para manter câmera estável e alvo em boailuminação | RA: Sistema exibe mensagem específica e retorna para nova tentativa |
+
+## Tabela de Calibração
+| Calibração (CB) \- dados para calibrar |  |  |  |  |  |  |  |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| **signo** | **origem** | **observações** | **Tipo de conteúdo** | **restrição sobre conteúdo** | **valor default** | **prevenção** | **recuperação** |
+| Desvio linear calculado | Sistema | Resultado do processamento após confirmação do POI | Valor numérico (distância em pixels/cm) | Deve ser calculável com POI e POA definidos |  | PP: POA e POI confirmados antes do cálculo | RA: Valor discrepante do habitual - sistema emite alerta |
+| Feedback de correção | Sistema | Exibido na cena "Consultar Feedback" | Texto (cliques x direção) | Deve ser gerado após cálculo do desvio linear |  | PP: Instrução de leitura exibida antes do valor | RA: Alerta de "Valor discrepante do habitual" - usuário deve verificar |
+
+## Tabela de Validação
+| Validação (V) \- dados para validar |  |  |  |  |  |  |  |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| **signo** | **origem** | **observações** | **Tipo de conteúdo** | **restrição sobre conteúdo** | **valor default** | **prevenção** | **recuperação** |
+| Confirmação de acerto | UI | Botões "sim" e "não" na cena "Confirmar acerto" | Binário (sim/não) | Torres devem ter sido corrigidas previamente |  | PP: Precondição exibida antes de acessar a cena; usuário confirma correção das torres | RA: "não" sistema retorna para "Definir POA" para reiniciar o ciclo de calibração |
