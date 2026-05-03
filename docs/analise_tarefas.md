@@ -2,33 +2,41 @@
 
 # HTA
 
-<img width="1872" height="766" alt="hta" src="https://github.com/user-attachments/assets/b3e3b80c-1958-42bf-8c2f-2c6cb55d4780" />
+<img width="1931" height="578" alt="tarefas_hta" src="https://github.com/user-attachments/assets/fd75cbce-dcc9-460c-8e74-83d01ac1e69e" />
 
 ## Objetivos/Operações
 
-0.	Calibrar luneta 1 > 2 > 3 > 4
+0.	Calibrar mira 1 > 2 > 3 > 4
 
 1.  Identificar usuário 1.1/1.2
 - 1.1.	Cadastrar usuário 1.1.1 > 1.1.2
 - 1.2.	Login no sistema inserindo credenciais
-- 1.1.1.  Informar dados do usuário 1.1.1.1 + 1.1.1.2
-- 1.1.2.	Enviar msg confirmando o cadastramento
-- 1.1.1.1.	Informar e-mail	
-- 1.1.1.2.	Criar senha
+- 1.1.1.  Informar dados do usuário 1.1.1.1 + 1.1.1.2 + 1.1.1.3
+- 1.1.2.	Login no sistema inserindo credenciais
+- 1.1.1.1.	Informar nome	
+- 1.1.1.2.	Informar e-mail
+- 1.1.1.3.  Criar senha e confirmar senha
 
 2.  Configurar ambiente 2.1 + 2.2
-- 2.1.	Colocar alvo
-- 2.2.	Definir distância
+- 2.1.	Colocar alvo com marcadores ArUco
+- 2.2.	Definir distância 2.2.1 / 2.2.2
+- 2.2.1. Selecionar distância pré-definida
+- 2.2.2. Digitar distância manualmente 
 
-3.	Executar ciclo de calibração 3.1 > 3.2 > 3.3
-- 3.1.	Definir ponto de impacto (POI) no sistema
-- 3.2.	Efetuar disparo
-- 3.3.	Receber feedback de correção
+3.	Executar ciclo de calibração 3.1 > 3.2 > 3.3 >3.4 > 3.5
+- 3.1.	Definir ponto de mira (POA) no sistema
+- 3.2. Salvar imagem de referência
+- 3.3.	Efetuar disparo 3.3.1 > 3.3.2 > 3.3.3
+- 3.4. Confirmar ponto de impacto (POI) no sistema
+- 3.5.	Retornar feedback
+- 3.3.1. Distanciar o alvo da câmera
+- 3.3.2. Realizar disparo com equipamento não calibrado
+- 3.3.3. Reaproximar o alvo da câmera
 
 4.	Confirmar correção 4.1 > 4.2 > 4.3
 - 4.1.  Calibrar mira
 - 4.2.	Efetuar disparo corrigido
-- 4.3.	Visualizar acerto
+- 4.3.	Validar acerto
 
 ## Problemas e Recomendações
 
@@ -101,7 +109,7 @@
 
 	Plano: efetuar disparo corrigido e depois usuário confirmar acerto
 
-	4.1. Ação: corrigir as torres da luneta conforme o feedback recebido
+	4.1. Ação: corrigir as torres da mira conforme o feedback recebido
 
 	4.2. Ação: efetuar disparo visando o POA
 
@@ -117,7 +125,7 @@
 
 ## Modelo GOMS: Calibração de Mira Inteligente
 
-GOAL 0: Calibrar luneta
+GOAL 0: Calibrar mira
 - GOAL 1: Identificar usuário
   - METHOD 1.A: Cadastrar novo usuário (SEL. RULE: usuário não possui conta no sistema)
     - OP. 1.A.1: Digitar e-mail no campo de cadastro
@@ -157,4 +165,4 @@ GOAL 0: Calibrar luneta
 
 # CTT
 
-<img width="1871" height="654" alt="ctt" src="https://github.com/user-attachments/assets/04da33d3-076d-4556-884c-6839b9ee47c7" />
+<img width="1476" height="480" alt="tarefas_ctt" src="https://github.com/user-attachments/assets/0bf1ccc6-69d7-4700-877a-f57e7cb423f8" />
