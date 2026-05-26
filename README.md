@@ -6,7 +6,7 @@ Projeto apresentado ao Centro Universitário [FEI](https://portal.fei.edu.br/), 
 - Mateus Rocha
 
 ## Título Original do TCC:
-Auxilio de Calibragem de Mira Inteligente para Fins Esportivos
+Sistema de Auxilio para Calibragem de Miras Ópticas
 
 ## Orientador:
 - Plinio Thomaz Aquino Junior
@@ -38,15 +38,13 @@ Os CACs (Colecionadores, atiradores e caçadores), policiais, pessoas com porte 
 - Código desenvolvido em Python 3.10;
 - Bibliotecas:
   - OpenCV;
-  - NumPy;
-  - Marplotlib.
+  - PyWebView;
+  - NumPy.
 - Hardware de captura e transmissão: Redmi com protocolo RTSP/HTTP (App IP Webcam);
 - Técnicas e Algoritmos:
   - Método de Zhang;
   - Matriz de homografia;
   - Subtração de Imagem e Operações Morfológicas.
-- Interface e Deploy:
-  - Streamlit ou Flask.
 
 ### Qual é o contexto de uso dessa aplicação?
 - Usuários: Atiradores esportivos, caçadores e colecionadores (CACs), com foco especial em iniciantes que carecem do conhecimento de cálculos balísticos, ou entusiastas que desejam otimizar seu tempo e munição.
