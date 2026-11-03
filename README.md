@@ -30,9 +30,10 @@ Os CACs (Colecionadores, atiradores e caçadores), policiais, pessoas com porte 
 
 ### Quais as funcionalidades da ferramenta (visão do usuário)?
 - Sistema de cadastro e login do usuário;
-- Tela de distância de calibração desejada;
-- Tela de ponto de impacto (POI);
-- Tela de feedback.
+- Definir distância de calibração;
+- Marcar ponto de mira;
+- Confirmar ponto de impacto;
+- Receber orientação de ajuste.
 
 ### Quais tecnologias e ferramentas computacionais que pretendem usar neste projeto (TCC)?
 - Código desenvolvido em Python 3.10;
