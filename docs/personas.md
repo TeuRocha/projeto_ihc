@@ -1,5 +1,9 @@
 # Personas
 
+Para suportar os objetivos dos usuários respeitando sua privacidade, o sistema retém dados categorizados em duas frentes:
+- Dados de Autenticação (Antes da interação): Login, e-mail e senha. Não é obrigatório o uso de nomes reais ou dados sensíveis rastreáveis. O login atua apenas como uma chave local para a criação da conta e isolamento do perfil.
+- Histórico de Calibrações (Durante/Após a interação): Data da sessão, distância do alvo configurada, tipo de subdivisão da mira (MOA/MIL) e o rótulo/nome da arma. O nome da arma é de preenchimento livre e subjetivo (ex: "Rifle 1" em vez de modelo real), servindo exclusivamente como gatilho de memória para facilitar a busca e o reconhecimento do próprio atirador em seu histórico futuro.
+
 ### Márcio Rocha, policial civil
 - Idade: 45 anos.
 - Status: Primária.
@@ -9,6 +13,8 @@
 - Relacionamentos: Divorciado, com dois filhos.
 - Requisitos: Sistema que entregue um feedback exato com o menor número de uso.
 - Expectativas: Um sistema com gráficos informativos para buscar uma melhora no desempenho.
+
+<img width="500" height="620" alt="Gemini_Generated_Image_ek5nscek5nscek5n" src="https://github.com/user-attachments/assets/55dd87eb-e1b8-4cd3-a9ba-8109b0969ec8" />
 
 #### Mapa de Empatia: Márcio Rocha
 - O que PENSA e SENTE?
@@ -52,37 +58,39 @@ De volta em casa, Márcio limpa seu armamento. Ele guarda o fuzil no cofre, sent
 ### Alessandra Pinheiro, policial aposentada
 - Idade: 60 anos.
 - Status: Primária
-- Objetivos: Curtir a aposentadoria, manter a segurança pessoal dentro e fora de casa.
-- Habilidades: Investigadora policial, com certa experiência em negócios.
+- Objetivos: Manter sua proficiência e precisão no tiro defensivo com total autonomia, sem depender da ajuda.
+- Habilidades: Investigadora policial aposentada, com certa experiência em negócios.
 - Tarefas: Cuidado com a casa, acompanhamento médico contínuo.
 - Relacionamentos: Viúva, com duas filhas do primeiro casamento.
 - Requisitos: Sistema de manuseio simples, sem muito esforço físico por parte do usuário.
 - Expectativas: Um sistema de uso simples e direto ao ponto, com tutoriais mais visuais.
 
+<img width="500" height="620" alt="Gemini_Generated_Image_ek5nscek5nscek5n (2)" src="https://github.com/user-attachments/assets/8f28e0bc-ddc0-4f22-9eaa-51b988d59e92" />
+
 #### Mapa de Empatia: Alessandra Pinheiro
 - O que PENSA e SENTE?
 Como a persona se sente e, relação ao mundo?
-Sente que, apesar da experiência como investigadora, a idade e a necessidade de acompanhamento médico contínuo a tornam um pouco mais vulnerável, o que reforça seu desejo por proteção.
+Sente que, apesar da experiência como policial, a idade trouxe limitações visuais e físicas. Pensa que o processo de zerar uma luneta se tornou exaustivo e frustrante, pois hoje exige uma dependência de instrutores, tirando sua autonomia.
 
 - O que OUVE?
 Quais produtos de comunicação consome?
-Consome notícias sobre segurança pública e saúde, preferindo conteúdos que utilizem tutoriais visuais e linguagem clara.
+Consome noticiários voltados a policia e medicina, com a modernidade acaba escutando sobre cálculos complexos de MIL/MOA e planilhas balísticas, o que a faz se sentir tecnologicamente excluída do mundo que outrora fez parte.
 
 - O que VÊ?
 Como é o mundo em que a persona vive?
-Um ambiente doméstico tranquilo, mas onde ela está sempre atenta a detalhes de segurança, aplicando seu olhar treinado de ex-investigadora.
+Um ambiente doméstico tranquilo onde mantém as rédeas de sua vida, mas ao tentar calibrar sua mira, vê alvos de papel a 50 metros de distância cujos furos ela já não consegue enxergar a olho nu da bancada, obrigando-a a interromper a sessão constantemente.
 
 - O que FALA e FAZ?
 Sobre o que sua persona costuma falar?
-Conversa frequentemente sobre estratégias de segurança pessoal e compartilha experiências de sua carreira na polícia e no mundo dos negócios.
+No estande conversa com todos ali presentes sobre sua carreira, sempre oferecem ajuda para ela, porém evita ao máximo chegar a esse ponto.
 
 - Quais são as DORES?
 Do que sua persona tem medo?
-Tem receio de sofrer algum incidente de segurança por falta de monitoramento eficiente ou por não conseguir manusear sistemas tecnológicos complicados em momentos de urgência.
+Medo de se tornar dependente dos outros, principalmente de desconhecidos, em uma área que dedicou boa parte de sua vida.
 
 - Quais são as NECESSIDADES?
 O que acabaria com seus problemas?
-Um sistema de segurança intuitivo, com comandos simples e guias visuais, que garanta sua proteção sem demandar esforço físico ou aprendizado técnico exaustivo.
+Necessidade de uma confirmação visual imediata na tela de um dispositivo próximo. Um sistema que faça o cálculo por ela de forma automática e entregue uma resposta simples, devolvendo sua independência no estande.
 
 #### Contexto de Uso: Alessandra Pinheiro
 Ambiente Físico e Social: Alessandra frequenta o estande em horários mais calmos, buscando um ambiente seguro e bem iluminado. Por ter 60 anos e precisar de acompanhamento médico, ela evita carregar pesos excessivos ou fazer deslocamentos desnecessários entre a linha de tiro e o alvo.
@@ -92,11 +100,11 @@ Interação e Equipamento: O foco dela é a simplicidade de manuseio. Ela utiliz
 Narrativa de Uso: Imagine Alessandra no estande. Ela segue o tutorial visual do sistema para posicionar o smartphone. Após o disparo, em vez de tentar decifrar fórmulas balísticas complexas, ela vê na tela do notebook uma imagem clara do seu impacto e uma instrução visual simples (setas e números de cliques). O sistema funciona como um assistente que remove a barreira do "esforço físico" e da "tentativa e erro", tornando a prática do tiro um hobby relaxante e seguro para sua aposentadoria.
 
 #### Jornada do Usuário: Alessandra Pinheiro
-A rotina de aposentadoria e o zelo pela proteção do lar.
-Pela manhã, enquanto organiza sua casa, Alessandra nota no noticiário local um aumento nas ocorrências de segurança no seu bairro. Como ex-investigadora, seu instinto de proteção dispara e ela pensa: "Preciso garantir que minha arma de porte esteja perfeitamente calibrada caso eu precise dela. Vou ao estande hoje após minha consulta médica".
-Após sair do médico, ela vai ao clube de tiro. Ela escolhe um horário mais calmo, pois prefere um ambiente onde possa se concentrar sem pressa e sem o barulho excessivo de muitos atiradores ao redor.
-Alessandra retira seu equipamento da bolsa. Em vez de caminhar várias vezes até o alvo — o que cansaria seus joelhos — ela posiciona o smartphone no tripé a curta distância. Sentada na bancada, ela dispara e observa o notebook. O sistema mostra instruções visuais claras e grandes. "As setas indicam exatamente o ajuste", pensa ela, sentindo-se aliviada por não precisar de esforço físico para interpretar cálculos complexos.
-Satisfeita com o agrupamento perfeito no centro do alvo, ela limpa e guarda seu armamento. Ao chegar em casa, coloca o equipamento em seu local seguro, sentindo uma profunda sensação de autonomia e paz. Ela sabe que, mesmo aposentada e com as limitações da idade, a tecnologia permitiu que ela mantivesse sua capacidade de defesa intacta
+O resgate da autonomia no estande de tiro.
+Pela manhã, Alessandra decide ir ao clube de tiro para praticar. No entanto, ela sente uma leve ansiedade: sua luneta nova chegou, mas ela lembra que da última vez que precisou "zerar" um equipamento, levou quase 40 minutos caminhando dezenas de vezes até o alvo de 50 metros para medir os erros com uma régua. Ela voltou para casa frustrada, com os joelhos doendo e confusa com as anotações de conversão matemática.
+Ao chegar ao estande, ela escolhe uma baia isolada. Desta vez, ela monta o seu smartphone no tripé próximo ao alvo e volta para a bancada com seu notebook.
+Sentada e relaxada, Alessandra efetua o primeiro disparo. Em segundos, a tela do notebook mostra o furo ampliado e a instrução exata, em letras grandes: "Ajuste 4 cliques para CIMA e 2 para a DIREITA". Sem precisar fazer contas, ela apenas gira a torre da luneta conforme instruído. No segundo disparo, acerta no centro do alvo ("na mosca").
+Alessandra sorri, limpa sua arma e guarda o equipamento em poucos minutos. Ela deixa o estande sem dores físicas, sem desgaste mental e com uma profunda sensação de autonomia, sabendo que a tecnologia supriu suas limitações e devolveu a sua independência no esporte.
 
 ### Lucas Mendes, formando em jogos digitais
 - Idade: 23 anos
@@ -108,6 +116,9 @@ Satisfeita com o agrupamento perfeito no centro do alvo, ela limpa e guarda seu 
 - Requisitos: Interface no estilo das calculadoras ballísticas mobile, feedback instantâneo e linguagem visual que dispense o uso de tabelas de papel complexas.
 - Expectativas: Que o sistema seja tão intuitivo quanto um aplicativo de banco ou jogo, resolvendo o problema técnico com poucos toques.
 
+<img width="500" height="620" alt="Gemini_Generated_Image_ek5nscek5nscek5n (1)" src="https://github.com/user-attachments/assets/14bf60d8-fc0b-4383-ae29-daad2823e0b2" />
+
+#### Mapa de Empatia: Lucas Mendes
 - O que PENSA e SENTE?
 Quais são os seus sonhos? 
 Lucas sonha em dominar a técnica de tiro de precisão com a mesma naturalidade com que domina mecânicas de jogos complexos, sentindo-se empoderado pela tecnologia para superar sua falta de experiência prática.
