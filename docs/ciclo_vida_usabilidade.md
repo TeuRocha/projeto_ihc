@@ -51,6 +51,8 @@
 | Atirador esportivo realizando a calibração de mira em um estande de tiro (ambiente ruidoso) utilizando notebook e smartphone | 10 Heurísticas de Usabilidade (Jakob Nielsen) | Garante a visibilidade do status do sistema (ex: confirmar se os ArUcos foram detectados) e a prevenção de erros (ex: não permitir o cálculo se o campo de distância estiver vazio) | [Link](https://www.nngroup.com/articles/ten-usability-heuristics/)
 | Calibração técnica de precisão onde o usuário precisa de eficácia (acertar o ajuste) e eficiência (fazer rápido no estande) | ISO 9241-11 (Ergonomia da interação humano-sistema) | Esta norma define usabilidade em termos de eficácia e eficiência em um contexto de uso específico. É vital para validar se o sistema realmente ajuda a reduzir o tempo de calibração no clube de tiro | [Link](https://www.iso.org/obp/ui/#iso:std:iso:9241:-11:ed-2:v1:en)
 | Uso do software em clubes de tiro e entidades de prática desportiva regulamentadas no Brasil | Estatuto do Desarmamento e Decretos (Lei nº 10.826/2003) | Representa o Aspecto de Negócio. O projeto deve estar alinhado às normas de segurança e regulação de tiro esportivo para ser um produto legalmente aceito em clubes oficiais | [Link](https://www.planalto.gov.br/ccivil_03/leis/2003/l10.826.htm)
+| Cadastro e armazenamento do histórico de calibração dos usuários e metadados de armamentos | Lei Geral de Proteção de Dados (LGPD) | Garante que os dados cadastrais (e-mail, login) e perfis das armas sejam tratados e armazenados localmente respeitando a privacidade e segurança do atirador, sem exposição em nuvem desnecessária | [Link](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm)
+
 
 # Metas de Usabilidade
 
@@ -63,8 +65,12 @@
 
 ## Exigência Quantitativas
 
-- *Facilidade de aprendizado:* 20%
-- *Facilidade de memorização:* 20%
-- *Eficiência:* 20%
-- *Baixa taxa de erro:* 20%
-- *Satisfação positiva do usuário:* 20%
+- Facilidade de aprendizado: Usuários iniciantes, após uma breve explicação da interface, devem ser capazes de concluir o fluxo de configuração inicial (inserir distância e marcar o POA) em menos de 2 minutos no primeiro contato com o sistema.
+
+- Facilidade de memorização: Usuários experientes, após a primeira utilização, devem ser capazes de realizar um ciclo completo de calibração (da captura da imagem de referência até o recebimento do feedback) em menos de 45 segundos de operação no software, sem contar o tempo gasto fisicamente no disparo.
+
+- Baixa taxa de erro: A taxa de erro de inserção de dados críticos (como errar a casa decimal ao definir a distância da pista) não deve ultrapassar 1 erro a cada 10 ciclos de calibração (10%). O sistema deve conseguir alertar o usuário sobre limites inválidos (ex: distância zero ou negativa) antes do cálculo balístico.
+
+- Eficiência: Pelo menos 80% dos usuários testados devem conseguir chegar à tela final de feedback de correção (recebendo os cliques de ajuste em tela) sem necessitar de intervenção externa ou ajuda do moderador.
+
+- Satisfação positiva do usuário: Mensurada através do questionário de avaliação pós-teste (baseado no protocolo SUS - System Usability Scale). O sistema deve atingir uma pontuação média mínima de 75 pontos, indicando que os usuários consideram a interface amigável e vantajosa em relação ao método de calibração puramente manual.
