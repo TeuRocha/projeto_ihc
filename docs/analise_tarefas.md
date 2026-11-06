@@ -2,7 +2,7 @@
 
 # HTA
 
-<img width="1931" height="578" alt="tarefas_hta" src="https://github.com/user-attachments/assets/fd75cbce-dcc9-460c-8e74-83d01ac1e69e" />
+<img width="1925" height="577" alt="htacorrigido" src="https://github.com/user-attachments/assets/e3da3d63-74bc-4810-a6cd-d42a354c9d69" />
 
 ## Objetivos/Operações
 
@@ -20,8 +20,8 @@
 2.  Configurar ambiente 2.1 + 2.2
 - 2.1.	Colocar alvo com marcadores ArUco
 - 2.2.	Definir distância 2.2.1 / 2.2.2
-- 2.2.1. Selecionar distância pré-definida
-- 2.2.2. Digitar distância manualmente 
+- 2.2.1. Ajustar via mouse
+- 2.2.2. Digitar valor 
 
 3.	Executar ciclo de calibração 3.1 > 3.2 > 3.3 >3.4 > 3.5
 - 3.1.	Definir ponto de mira (POA) no sistema
@@ -47,6 +47,7 @@
 	Plano: identificar usuário e depois configurar ambiente e depois executar ciclo de calibração e depois o usuário confirmar correção
 
 	Recomendação: definir o POI como o centro do alvo
+
 1. Plano: cadastrar usuário ou confirmar login no sistema inserindo credenciais do usuário
 
 	1.1. Plano: preencher *nome, *e-mail, *senha, *confirmar senha e confirmar cadastro
@@ -65,9 +66,9 @@
 
 	1.1.2. Recomendação: alertar usuário sobre a confirmação
    
-3. Plano: colocar alvo e definir distância
+2. Plano: colocar alvo e definir distância
 
-	2.2. Input: valor numérico da distância em metros
+	2.2. Plano: definir valor numérico da distância em metros
 	
 	Problema: valor inválido inserido para calibração
 
@@ -75,7 +76,7 @@
 	
 3. Plano: definir POA no sistema e depois salvar referência e depois efetuar disparo e depois confirmar POI e depois retornar feedback de correção
 
-	3.1. Input: clique do usuário dentro do bloco verde para definir o POA
+	3.1. Plano: Clique do usuário dentro do bloco verde para definir o POA
 
    	Problema: clique fora da área delimitada pelo bloco verde
 
@@ -99,7 +100,7 @@
 
 	Recomendação: para cada tipo de falha, exibir orientação específica de correção
 
-	3.5. Feedback: sistema exibe cálculo de cliques por direção
+	3.5. Plano: sistema exibe cálculo de cliques por direção
    
 	Problema: valor discrepante do habitual detectado pelo sistema
 
@@ -127,20 +128,25 @@
 
 GOAL 0: Calibrar mira
 - GOAL 1: Identificar usuário
-  - METHOD 1.A: Cadastrar novo usuário (SEL. RULE: usuário não possui conta no sistema)
+  - METHOD 1.A: Cadastrar novo usuário
+  - (SEL. RULE: usuário não possui conta no sistema)
     - OP. 1.A.1: Digitar e-mail no campo de cadastro
     - OP. 1.A.2: Digitar nova senha
     - OP. 1.A.3: Confirmar senha
     - OP. 1.A.4: Clicar no botão "Cadastrar"
-  - METHOD 1.B: Fazer login (SEL. RULE: usuário já possui conta cadastrada) 
+  - METHOD 1.B: Fazer login
+  - (SEL. RULE: usuário já possui conta cadastrada) 
 	- OP. 1.B.1: Inserir credenciais (e-mail e senha) 
 	- OP. 1.B.2: Clicar no botão "Entrar"
 - GOAL 2: Configurar ambiente 
-	- OP. 2.1: Posicionar alvo fisicamente na distância desejada
-	- METHOD 2.A: Selecionar distância pré-definida (SEL. RULE: distância é um valor padrão como 10m ou 20m)
-	  - OP. 2.A.1: Clicar na opção de distância pré-definida desejada
-	- METHOD 2.B: Digitar distância desejada (SEL. RULE: só será aceito um valor decimal como 10.0m ou 25.0m)
-	  - OP. 2.B.1: Digitar a distância desejada
+	- OP. 2.1: Posicionar fisicamente o alvo com marcadores na distância planejada
+	- METHOD 2.A: Selecionar distância via scroll do mouse
+ 	- (SEL. RULE: Se o usuário prefere utilizar apenas o mouse)
+	  - OP. 2.A.1: Arrastar scroll do mouse
+	- METHOD 2.B: Digitar distância manualmente
+ 	- (SEL. RULE: só será aceito um valor positivo)
+      - OP. 2.B.1: Clicar no campo distância
+	  - OP. 2.B.2: Digitar o valor numérico
 - GOAL 3: Executar ciclo de calibração
   	- OP. 3.1: Visualizar imagem em tempo real da câmera e aguardar status positivo de detecção dos ArUcos
 	- OP. 3.2: Clicar dentro do bloco verde na imagem para definir o Ponto de Mira (POA)
@@ -150,19 +156,21 @@ GOAL 0: Calibrar mira
 	- OP. 3.6: Efetuar o disparo físico com a arma
    	- OP. 3.7: Reaproximar o alvo da câmera após disparo
    	- OP. 3.8: Confirmar se o POI sinalizado está correto clicando em "sim" ou "não"
-	- OP. 3.3: Ler o feedback de correção exibido pelo sistema 
+	- OP. 3.9: Ler o feedback de correção exibido pelo sistema 
 - GOAL 4: Confirmar correção
   	- OP. 4.1: Calibrar equipamento 
 	- OP. 4.2: Realizar disparo utilizando o ajuste sugerido pelo sistema 
 	- OP. 4.3: Visualizar o acerto no alvo e validar a precisão
-  	- METHOD 4.A: Confirmar calibração bem-sucedida (SEL. RULE: acerto visual confirmado pelo usuário)
+  	- METHOD 4.A: Confirmar calibração bem-sucedida
+  	- (SEL. RULE: acerto visual confirmado pelo usuário)
   	  - OP 4.A.1: Clicar em "sim" retornando sistema ao menu principal
-  	  - GOAL 4.A.1.: Calibrar outro equipamento se houver
-  	    - OP. 4.A.1.1: Selecionar opção calibrar no menu principal
-	- METHOD 4.B: Reiniciar ciclo de calibração (SEL. RULE: acerto não confirmado após correção das torres)
+  	  - GOAL 4.A.2.: Calibrar outro equipamento se houver
+  	    - OP. 4.A.2.1: Selecionar opção calibrar no menu principal
+	- METHOD 4.B: Reiniciar ciclo de calibração
+ 	- (SEL. RULE: acerto não confirmado após correção das torres)
       - OP. 4.B.1: Clicar em "não" retornando sistema para a cena "Definir POA"
       - OP. 4.B.2: Executar ciclo de calibração novamente a partir de GOAL 3
 
 # CTT
 
-<img width="1476" height="480" alt="tarefas_ctt" src="https://github.com/user-attachments/assets/0bf1ccc6-69d7-4700-877a-f57e7cb423f8" />
+<img width="1477" height="479" alt="cttcorrigido" src="https://github.com/user-attachments/assets/b1d30ff7-5222-42c3-b084-8993cf5b0041" />
