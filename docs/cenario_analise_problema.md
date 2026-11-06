@@ -1,91 +1,58 @@
 # Cenário de Análise/Problema
+## Título: Definição dos Parâmetros de Calibração
+Atores: Alessandra Pinheiro (Policial Aposentada)
 
-## Tela de Cadastro, Login e Assinatura
+Alessandra posiciona seu armamento na bancada e se prepara para o ajuste. Seguindo a recomendação de colegas, ela abre uma calculadora balística padrão em seu celular para tentar configurar a distância de 25 metros. No entanto, o aplicativo exige o preenchimento de uma tabela densa: solicita a temperatura externa, a altitude do estande e dados específicos do projétil que ela nem sequer trouxe anotados. Alessandra se sente perdida entre tantos termos técnicos e números miúdos na tela, o que exige um esforço visual e mental exaustivo para sua idade. Ela pensa no tempo que está perdendo e na frustração de não conseguir "ir direto ao ponto".
 
-### Atores: Márcio Rocha (Policial Civil)
+# Questões de Refinamento
 
-Márcio Rocha chega clube de tiro após o serviço, com o objetivo de calibrar sua mira recém comprada, ele que ser rápido pois já é tarde e trabalha cedo no dia seguinte, aluga a baia e se dirige até o seu estande, antes de iniciar os testes, ele pega seu smartphone para se cadastrar no aplicativo recomendado pelos colegas de trabalho, ele preenche todos os campos obrigatórios e efetua o login, porém tem que pagar uma assinatura para utilizar o aplicativo na totalidade, irritado e com pressa ele preenche os dados para o pagamento, e enfim consegue logar na sua conta recém criada.
+1. [Ator] Quais características físicas e cognitivas de Alessandra dificultam o uso do aplicativo?
+2. [Ambiente/Contexto] Que tipo de pressão externa o ambiente do estande exerce sobre ela neste momento?
+3. [Objetivo] Qual é a motivação central que a faz querer evitar essa tabela densa?
+4. [Planejamento] Qual era a expectativa estratégia dela ao escolher usar um aplicativo de celular?
+5. [Ação] O que ela decide fazer ao não conseguir preencher os dados?
+6. [Evento] Como o sistema reage à tentativa dela de pular essa etapa de configuração?
+7. [Avaliação] Qual conclusão ela tira sobre as calculadoras balísticas atuais após essa experiência?
 
-## Tela de Distância de Calibração
+# Refinamento do Cenário Análise/Problema
 
-### Atores: Alessandra Pinheiro (Policial Aposentada)
+Alessandra posiciona seu armamento na bancada e se prepara para o ajuste. Seguindo a recomendação de colegas, ela abre uma calculadora balística padrão em seu celular para tentar configurar a distância de 25 metros, (esperando uma configuração de etapa única e intuitiva para agilizar sua sessão) [4]. No entanto, (o sistema bloqueia o avanço da tela e) [6] exige o preenchimento de uma tabela densa: solicita a temperatura externa, a altitude do estande e dados específicos do projétil que ela nem sequer trouxe anotados. Alessandra se sente perdida entre tantos termos técnicos e números miúdos na tela, o que exige um esforço visual e mental exaustivo para sua idade, (visto que ela possui vista cansada e aversão a cálculos matemáticos complexos) [1]. Ela pensa no tempo que está perdendo, (pressionada pelo valor da hora locada da baia de tiro) [2], e na frustração de não conseguir "ir direto ao ponto". (Frustrada em seu objetivo de ter total independência no esporte) [3], (ela fecha o aplicativo desistindo de usá-lo) [5] e conclui que (a tecnologia atual do mercado cria barreiras desnecessárias em vez de facilitar a vida do atirador comum) [7].
 
-Alessandra posiciona seu armamento na bancada e se prepara para o ajuste. Seguindo a recomendação de colegas, ela abre uma calculadora balística padrão em seu celular para definir a distância de 25 metros. No entanto, em vez de uma pergunta simples, o aplicativo exige o preenchimento de uma tabela densa: solicita a temperatura externa, a altitude do estande e dados específicos do projétil que ela nem sequer trouxe anotados. Alessandra se sente perdida entre tantos termos técnicos e números miúdos na tela, o que exige um esforço visual e mental exaustivo para sua idade. Ela pensa no tempo que está perdendo e na frustração de não conseguir 'ir direto ao ponto'.
+## Título: Realizar o Cadastro e Primeiro Acesso
+Atores: Márcio Rocha (Policial Civil)
 
-## Tela de Feedback
+Márcio Rocha chega ao clube de tiro após o serviço, com o objetivo de calibrar sua mira recém-comprada. Ele quer ser rápido pois já é tarde e trabalha cedo no dia seguinte. Aluga a baia e se dirige até o seu estande. Antes de iniciar os testes, ele pega seu smartphone para se cadastrar no aplicativo recomendado pelos colegas de trabalho. Ele preenche todos os campos obrigatórios e efetua o login. Porém, tem que pagar uma assinatura para utilizar o aplicativo na totalidade. Irritado e com pressa, ele preenche os dados para o pagamento e, enfim, consegue logar na sua conta recém-criada.
 
-### Atores: Lucas Mendes (Formando em Jogos Digitais)
+# Questões de Refinamento
 
-Lucas Mendes encara seu terceiro alvo do dia, sentindo o peso do prejuízo no bolso. Como um iniciante, ele tenta calibrar sua mira da forma tradicional: atira, observa o impacto longe do centro e tenta calcular o quanto deve girar. Ele consulta uma calculadora balística no celular, mas ela cospe uma infinidade de números como '0.45 MIL' ou '1.57 MOA', termos que apenas o confundem mais. Sem um guia claro, Lucas gira a torre de elevação para o lado que pensa ser o correto e dispara novamente, apenas para ver o projétil atingir o barranco, completamente fora do alvo.
+1. [Ator] Quais características comportamentais de Márcio influenciam sua tolerância a interrupções no aplicativo?
+2. [Ambiente/Contexto] Qual é a restrição de recurso físico do local que agrava a sua pressa?
+3. [Objetivo] Por que o alcance de seu objetivo prático (calibrar) foi interrompido e atrasado?
+4. [Planejamento] Como e quando Márcio obteve a informação de qual ferramenta utilizar?
+5. [Ação] Qual expectativa ele tinha ao preencher os formulários, e o que desejava descartar no processo?
+6. [Evento] Qual evento exato gerado pelo sistema causou o bloqueio e a frustração no usuário?
+7. [Avaliação] Como Márcio avalia a experiência e o próprio sistema após conseguir o acesso final?
 
-## Tela de Ponto de Impacto (POI)
+# Refinamento do Cenário de Análise/Problema
 
-### Atores: Alessandra Pinheiro (Policial Aposentada)
+Márcio Rocha chega ao clube de tiro após o serviço, com o objetivo de calibrar sua mira recém-comprada. Ele quer ser rápido pois já é tarde e trabalha cedo no dia seguinte, (tendo um limite rígido de tempo de locação da baia) [2]. Aluga a baia e se dirige até o seu estande. Antes de iniciar os testes, ele pega seu smartphone para se cadastrar no aplicativo recomendado pelos colegas de trabalho (durante uma conversa informal no expediente anterior) [4]. Ele preenche todos os campos obrigatórios e efetua o login, (esperando acessar diretamente as ferramentas de cálculo e pular burocracias) [5]. Porém, (o sistema bloqueia a navegação apresentando subitamente um paywall) [6], e ele tem que pagar uma assinatura para utilizar o aplicativo na totalidade, (atrasando o início do seu treinamento) [3]. Irritado e com pressa, (já que seu perfil prático e direto tem baixíssima tolerância a processos travados) [1], ele preenche os dados para o pagamento e, enfim, consegue logar na sua conta recém-criada, (iniciando a sessão de tiro estressado e concluindo que o aplicativo é mercenário e pouco amigável) [7].
 
-Alessandra termina sua primeira série de disparos. Da linha de tiro, ela aperta os olhos tentando enxergar onde as balas atingiram o alvo a 25 metros, mas a distância e o reflexo no papel tornam os furos quase invisíveis para ela. Resignada, ela aguarda o instrutor de tiro declarar 'pista fria' para que todos possam avançar. Ela inicia a caminhada até o final do estande, sentindo o esforço nos joelhos a cada passo. Ao chegar no alvo, precisa se inclinar para identificar o pequeno rasgo no papel. Ela percebe que não trouxe uma régua e tenta estimar o desvio usando a largura do polegar, tentando lembrar se aquilo equivale a um ou dois centímetros. Sob a pressão de outros atiradores que já estão voltando, ela faz uma anotação mental apressada: 'um pouco para baixo e para a esquerda'. No caminho de volta, ela já se sente cansada e em dúvida se aquela estimativa visual será suficiente para ajustar sua  com a precisão que sua segurança exige.
+## Título: Receber Orientação de Ajuste de Mira
+Atores: Lucas Mendes (Formando em Jogos Digitais)
 
-# Refinamento dos Cenários Problema
+Lucas Mendes encara seu terceiro alvo do dia, sentindo o peso do prejuízo no bolso. Como um iniciante, ele tenta calibrar sua mira da forma tradicional: atira, observa o impacto longe do centro e tenta calcular o quanto deve girar. Ele consulta uma calculadora balística no celular, mas ela cospe uma infinidade de números como "0.45 MIL" ou "1.57 MOA", termos que apenas o confundem mais. Sem um guia claro, Lucas gira a torre de elevação para o lado que pensa ser o correto e dispara novamente, apenas para ver o projétil atingir o barranco, completamente fora do alvo.
 
-## Refinamento do Cenário - Tela de Cadstro, Login e Assinatura
+# Questões de Refinamento
 
-### Atores: Márcio Rocha (Policial Civil)
+1. [Ator] Qual característica técnica e de experiência do ator o prejudica criticamente nesta tarefa?
+2. [Ambiente/Contexto] Qual pressão externa, além do estresse esportivo, afeta fortemente o estado emocional do ator?
+3. [Objetivo]Qual informação visual secundária ele esperava que o aplicativo gerasse para ajudá-lo de fato?
+4. [Planejamento] Qual é a falha base na estratégia de tentar calibrar a mira sozinho da forma tradicional?
+5. [Ação] Como ele reage na prática diante da informação confusa que o aplicativo apresenta?
+6. [Evento] Como o sistema falha em comunicar ou traduzir o evento de correção balística na tela?
+7. [Avaliação] Qual a interpretação final que o ator faz sobre a utilidade do sistema tecnológico após o erro?
 
-Perguntas utilizadas para refinar:
 
-1. Quais as precondições necessárias para esse objetivo?
-2. Quais etapas podem ser descartadas para a conclusão do objetivo de forma mais rápida?
-3. Quais são as tecnologias utilizadas no ambiente? Como os usuário a utilizam?
-4. Quais pressões existem para o alcance do objetivo?
-5. Quais características dos autores lhes auxiliam ou prejudicam em alcançar o objetivo?
-6. Quais eventos disparam a necessidade de concluir o objetivo?
-7. Que recursos estão disponíveis para realizá-la?
-8. Como os atores conseguem saber se o objetivo foi alcançado com sucesso?
+# Refinamento do Cenário de Análise/Problema
 
-Márcio Rocha chega clube de tiro após o serviço, com o objetivo de calibrar sua  recém comprada [6], ele que ser rápido pois já é tarde e trabalha cedo no dia seguinte [4, 6], aluga a baia e se dirige até o seu estande [7], antes de iniciar os testes, ele pega seu smartphone para se cadastrar no aplicativo [3] recomendado pelos colegas de trabalho, ele preenche todos os campos obrigatórios [1] e efetua o login, porém tem que pagar uma assinatura [1, 2] para utilizar o aplicativo na totalidade [1], irritado e com pressa [5] ele preenche os dados para o pagamento, e enfim consegue logar na sua conta recém criada [8].
-
-## Refinamento do Cenário - Tela de Distância de Calibração
-
-### Atores: Alessandra Pinheiro (Policial Aposentada)
-
-Perguntas utilizadas para refinar:
-
-1. De que informações ou conhecimentos os atores precisam para realizar esse objetivo?
-2. Quais pressões existem para o alcance do objetivo?
-3. Em que situações o cenário ocorre?
-4. Quais características dos autores lhes auxiliam ou prejudicam em alcançar o objetivo?
-5. De que maneira o ambiente e o sistema auxiliam ou impedem que os atores tomem decisões adequadas?
-6. Quais eventos são ou deveriam ser disparados pela conclusão desse objetivo?
-
-Alessandra posiciona seu armamento na bancada e se prepara para o ajuste [3]. Seguindo a recomendação de colegas, ela abre uma calculadora balística padrão em seu celular para definir a distância de 25 metros. No entanto, em vez de uma pergunta simples, o aplicativo exige o preenchimento de uma tabela densa [2]: solicita a temperatura externa, a altitude do estande e dados específicos do projétil [1] que ela nem sequer trouxe anotados. Alessandra se sente perdida entre tantos termos técnicos e números miúdos na tela [5], o que exige um esforço visual e mental exaustivo para sua idade [2, 4]. Ela pensa no tempo que está perdendo e na frustração de não conseguir 'ir direto ao ponto'.
-
-## Refinamento do Cenário - Tela de Feedback
-
-### Atores: Lucas Mendes (Formando em Jogos Digitais)
-
-Perguntas utilizadas para refinar:
-
-1. Que outros objetivos estão relacionados a esse?
-2. Quais informações são ou deveriam ser criadas, consumidas, manipuladas ou destruídas pelo alcance do objetivo?
-3. Quais pressões existem para o alcance do objetivo?
-4. Que dispositivos e outros recursos (inclusive tempo) estão disponíveis para o alcance do objetivo?
-
-Texto refinado:
-
-Lucas Mendes encara seu terceiro alvo do dia, sentindo o peso do prejuízo no bolso. Como um iniciante, ele tenta calibrar sua  da forma tradicional [1]: atira, observa o impacto longe do centro e tenta calcular o quanto deve girar [2]. Ele consulta uma calculadora balística no celular [4], mas ela cospe uma infinidade de números como '0.45 MIL' ou '1.57 MOA' [2], termos que apenas o confundem mais. Sem um guia claro, Lucas gira a torre de elevação para o lado que pensa ser o correto e dispara novamente, apenas para ver o projétil atingir o barranco, completamente fora do alvo.
-
-## Refinamento do Cenário - Tela de Ponto de Impacto (POI) 
-
-### Atores: Alessandra Pinheiro (Policial Aposentada)
-
-Perguntas utilizadas para refinar:
-
-1. De que informações ou conhecimentos os atores precisam para realizar esse objetivo?
-2. Quais características dos atores lhes auxiliam ou prejudicam em alcançar o objetivo?
-3. Quais são as tecnologias utilizadas no ambiente? Como os usuários as utilizam?
-4. De que maneira o ambiente e o sistema auxiliam ou impedem que os atores tomem decisões adequadas?
-5. Quais pressões existem para o alcance do objetivo?
-6. Como os atores conseguem saber se o objetivo foi alcançado com sucesso?
-
-Texto refinado:
-
-Alessandra termina sua primeira série de disparos. Da linha de tiro, ela aperta os olhos tentando enxergar onde as balas atingiram o alvo a 25 metros, mas a distância e o reflexo no papel tornam os furos quase invisíveis para ela [2, 4]. Resignada, ela aguarda o instrutor de tiro declarar 'pista fria' para que todos possam avançar [5]. Ela inicia a caminhada até o final do estande, sentindo o esforço nos joelhos a cada passo [2]. Ao chegar no alvo, precisa se inclinar para identificar o pequeno rasgo no papel [2]. Ela percebe que não trouxe uma régua e tenta estimar o desvio usando a largura do polegar, tentando lembrar se aquilo equivale a um ou dois centímetros [1, 3]. Sob a pressão de outros atiradores que já estão voltando [5], ela faz uma anotação mental apressada: 'um pouco para baixo e para a esquerda'. No caminho de volta, ela já se sente cansada e em dúvida se aquela estimativa visual será suficiente para ajustar sua  com a precisão que sua segurança exige [4, 6].
+Lucas Mendes encara seu terceiro alvo do dia, sentindo o peso do prejuízo no bolso (devido ao alto custo financeiro da munição gasta sem resultados) [2]. Como um iniciante (com pouco repertório e pouca intimidade com o jargão técnico balístico) [1], ele tenta calibrar sua mira da forma tradicional: atira, observa o impacto longe do centro e tenta calcular o quanto deve girar, (embora não possua o conhecimento matemático prévio necessário para essa conversão analógica) [4]. Ele consulta uma calculadora balística no celular, (buscando uma tradução mastigada em cliques visuais para sua luneta) [3], mas ela cospe uma infinidade de números como "0.45 MIL" ou "1.57 MOA", (sem indicar de forma amigável um referencial visual claro ou a direção (esquerda/direita/cima/baixo) em que se deve girar) [6], termos que apenas o confundem mais. Sem um guia claro, Lucas (apela desesperadamente para o método da tentativa e erro) [5], gira a torre de elevação para o lado que pensa ser o correto e dispara novamente, apenas para ver o projétil atingir o barranco, completamente fora do alvo, (concluindo que os aplicativos balísticos atuais são inúteis para leigos e apenas induzem ao desperdício) [7].
