@@ -2,7 +2,7 @@
 
 # HTA
 
-<img width="1925" height="577" alt="htacorrigido" src="https://github.com/user-attachments/assets/e3da3d63-74bc-4810-a6cd-d42a354c9d69" />
+<img width="1941" height="582" alt="htafinal drawio" src="https://github.com/user-attachments/assets/b49bbbe2-2063-4d54-8193-2d70f1a2abdc" />
 
 ## Objetivos/Operações
 
@@ -19,9 +19,9 @@
 
 2.  Configurar ambiente 2.1 + 2.2
 - 2.1.	Colocar alvo com marcadores ArUco
-- 2.2.	Definir distância 2.2.1 / 2.2.2
-- 2.2.1. Ajustar via mouse
-- 2.2.2. Digitar valor 
+- 2.2.	Configurar setup de calibração 2.2.1 + 2.2.2
+- 2.2.1. Definir distância
+- 2.2.2. Definir valor do clique
 
 3.	Executar ciclo de calibração 3.1 > 3.2 > 3.3 >3.4 > 3.5
 - 3.1.	Definir ponto de mira (POA) no sistema
@@ -66,13 +66,17 @@
 
 	1.1.2. Recomendação: alertar usuário sobre a confirmação
    
-2. Plano: colocar alvo e definir distância
+2. Plano: preparar alvo e definir setup de calibração
 
-	2.2. Plano: definir valor numérico da distância em metros
+	2.2. Plano: definir valor numérico da distância em metros e definir valor do clique
 	
 	Problema: valor inválido inserido para calibração
 
 	Recomendação: especificar no campo a faixa de valores aceitos além do placeholder
+
+	2.2.1. Ação: Definir distância em metros
+
+   	2.2.2. Ação: Definir valor do clique
 	
 3. Plano: definir POA no sistema e depois salvar referência e depois efetuar disparo e depois confirmar POI e depois retornar feedback de correção
 
@@ -147,15 +151,16 @@ GOAL 0: Calibrar mira
  	- (SEL. RULE: só será aceito um valor positivo)
       - OP. 2.B.1: Clicar no campo distância
 	  - OP. 2.B.2: Digitar o valor numérico
+   - OP. 2.2: Definir valor do clique (MOA)
 - GOAL 3: Executar ciclo de calibração
   	- OP. 3.1: Visualizar imagem em tempo real da câmera e aguardar status positivo de detecção dos ArUcos
 	- OP. 3.2: Clicar dentro do bloco verde na imagem para definir o Ponto de Mira (POA)
    	- OP. 3.3: Verificar confirmação "Sucesso, POA definido: '[ponto]' cm."
-   	- OP. 3.4: Clicar no botão "Salvar referência"
+   	- OP. 3.4: Clicar no botão "Salvar frame"
    	- OP. 3.5: Distanciar o alvo para distância definida
 	- OP. 3.6: Efetuar o disparo físico com a arma
    	- OP. 3.7: Reaproximar o alvo da câmera após disparo
-   	- OP. 3.8: Confirmar se o POI sinalizado está correto clicando em "sim" ou "não"
+   	- OP. 3.8: Confirmar se o POI sinalizado está correto clicando em "Confirmar, POI" ou "Não, ignorar"
 	- OP. 3.9: Ler o feedback de correção exibido pelo sistema 
 - GOAL 4: Confirmar correção
   	- OP. 4.1: Calibrar equipamento 
@@ -163,14 +168,14 @@ GOAL 0: Calibrar mira
 	- OP. 4.3: Visualizar o acerto no alvo e validar a precisão
   	- METHOD 4.A: Confirmar calibração bem-sucedida
   	- (SEL. RULE: acerto visual confirmado pelo usuário)
-  	  - OP 4.A.1: Clicar em "sim" retornando sistema ao menu principal
+  	  - OP 4.A.1: Clicar em "Concluir e salvar" retornando sistema ao menu principal
   	  - GOAL 4.A.2.: Calibrar outro equipamento se houver
-  	    - OP. 4.A.2.1: Selecionar opção calibrar no menu principal
-	- METHOD 4.B: Reiniciar ciclo de calibração
+  	    - OP. 4.A.2.1: Selecionar opção "nova calibração" no menu principal
+	- METHOD 4.B: Novo disparo (manter POA)(Reiniciar ciclo de calibração)
  	- (SEL. RULE: acerto não confirmado após correção das torres)
-      - OP. 4.B.1: Clicar em "não" retornando sistema para a cena "Definir POA"
-      - OP. 4.B.2: Executar ciclo de calibração novamente a partir de GOAL 3
+      - OP. 4.B.1: Clicar em "Novo disparo (manter POA)"
+      - OP. 4.B.2: Retornar ao OP.3.4
 
 # CTT
 
-<img width="1477" height="479" alt="cttcorrigido" src="https://github.com/user-attachments/assets/b1d30ff7-5222-42c3-b084-8993cf5b0041" />
+<img width="1505" height="502" alt="cttfinal drawio" src="https://github.com/user-attachments/assets/5d9ae413-d7f4-49f4-a18f-5a65b861e5dc" />
