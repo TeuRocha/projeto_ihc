@@ -66,4 +66,4 @@ Lucas Mendes, preocupado com o custo das munições gastas, utiliza a Visão Top
 | Validação (V) \- dados para validar |  |  |  |  |  |  |  |  |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
 | **Signo** | **Origem** | **Observações** | **Tipo de conteúdo** | **Restrição sobre conteúdo** | **Cena MOLIC** | **Valor default** | **Prevenção** | **Recuperação** |
-| Confirmação de acerto | UI | Botões "sim" e "não" na cena "Confirmar acerto" | Binário (sim/não) | Torres devem ter sido corrigidas previamente | Confirmação acerto |  | PP: Precondição exibida antes de acessar a cena; usuário confirma correção das torres | RA: "não" sistema retorna para "Definir POA" para reiniciar o ciclo de calibração |
+| Confirmação de acerto | UI | Botões "concluir e salvar" e "novo disparo (manter POA)" na cena "Consultar feedback" | Binário (sim/não) | Torres devem ter sido corrigidas previamente | Consultar feedback |  | PP: Precondição exibida antes de acessar a cena; usuário confirma correção das torres | RA: "novo disparo (manter POA)" sistema retorna para "Salvar referência" para reiniciar o ciclo de calibração |
