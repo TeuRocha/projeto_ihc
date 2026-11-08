@@ -2,4 +2,4 @@
 
 ## Cenário - Calibrar Mira
 
-<img width="769" height="2116" alt="tarefas_molic_hist" src="https://github.com/user-attachments/assets/36388e77-8e35-44ae-b0bd-c690264a8402" />
+<img width="522" height="1901" alt="molicfinal drawio" src="https://github.com/user-attachments/assets/4cd35711-b1cb-48fd-a523-8a32db2b37ae" />
