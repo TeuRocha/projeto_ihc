@@ -25,7 +25,7 @@ O projeto deve considerar aspectos éticos pois envolve a coleta de dados para i
 
 ## Sobre a Coleta de Dados com Questionário
 
-Para garantir o alinhamento com a Engenharia de Usabilidade, a coleta de dados foi dividida em duas fases metodológicas distintas: Levantamento de Necessidades (aplicado ao público-alvo para guiar o design inicial) e Avaliação de Uso (aplicado aos testadores após a interação com o protótipo do sistema).
+Para garantir o alinhamento com a Engenharia de Usabilidade, a coleta de dados foi dividida em duas fases metodológicas distintas: Levantamento de Necessidades (aplicado ao público-alvo para guiar o design inicial) e Avaliação de Uso (aplicado pré-teste para verificar nível de conhecimento em calibração por parte do usuário).
 
 ### Levantamento de Necessidades e Perfil de Usuário
 Este questionário tem como objetivo mapear o perfil, a experiência e as dores dos atiradores no processo manual atual, subsidiando as decisões arquiteturais e visuais da interface.
