@@ -4,7 +4,7 @@ Para suportar os objetivos dos usuários respeitando sua privacidade, o sistema 
 - Dados de Autenticação (Antes da interação): Login, e-mail e senha. Não é obrigatório o uso de nomes reais ou dados sensíveis rastreáveis. O login atua apenas como uma chave local para a criação da conta e isolamento do perfil.
 - Histórico de Calibrações (Durante/Após a interação): Data da sessão, distância do alvo configurada, tipo de subdivisão da mira (MOA/MIL) e o rótulo/nome da arma. O nome da arma é de preenchimento livre e subjetivo (ex: "Rifle 1" em vez de modelo real), servindo exclusivamente como gatilho de memória para facilitar a busca e o reconhecimento do próprio atirador em seu histórico futuro.
 
-### Márcio Rocha, policial civil
+### Bernardo Reis, policial civil
 - Idade: 45 anos.
 - Status: Primária.
 - Objetivos: Aposentar quando os filhos forem auto suficiente, continuar com o Hobbie de atirar.
@@ -16,7 +16,7 @@ Para suportar os objetivos dos usuários respeitando sua privacidade, o sistema 
 
 <img width="500" height="620" alt="Gemini_Generated_Image_ek5nscek5nscek5n" src="https://github.com/user-attachments/assets/55dd87eb-e1b8-4cd3-a9ba-8109b0969ec8" />
 
-#### Mapa de Empatia: Márcio Rocha
+#### Mapa de Empatia: Bernardo Reis
 - O que PENSA e SENTE?
 Quais as suas preocupações?
 Márcio se preocupa em manter sua precisão técnica como atirador de elite mesmo com o passar dos anos, visando uma transição tranquila para a aposentadoria sem perder sua identidade como atirador.
@@ -41,21 +41,21 @@ A dificuldade de conciliar o tempo com os filhos após o divórcio com a carga h
 O que é sucesso para sua persona?
 Conseguir um feedback de calibração perfeito e preciso logo no primeiro disparo, garantindo que seu equipamento esteja sempre pronto para uso.
 
-#### Contexto de Uso: Márcio Rocha
+#### Contexto de Uso: Bernardo Reis
 - Ambiente Físico e Social: Márcio utiliza o sistema em clubes de tiro profissionais ou estandes militares em São Paulo. O ambiente é barulhento, com outros atiradores ao lado, exigindo que ele mantenha o foco total na linha de tiro. A iluminação é controlada, permitindo que a câmera do smartphone capture nitidamente o alvo com os marcadores ArUco.
 
 - Interação e Equipamento: Como ele prefere eficiência máxima e "comandos" diretos, ele monta o tripé a 2 metros do alvo e posiciona o notebook. Para ele, o sistema não é um brinquedo, mas uma ferramenta de precisão que deve economizar sua munição de alto custo e seu tempo escasso entre plantões.
 
 - Narrativa de Uso: Imagine Márcio chegando ao estande após uma ronda cansativa. Ele não quer fazer cálculos manuais. Ele realiza um único disparo de aferição. Em menos de 5 segundos, ele olha para o notebook posicionado atrás dele e vê o feedback numérico exato: "Subir 4 cliques". Ele ajusta a luneta e segue para seu treinamento de precisão com a confiança de que o equipamento está zerado.
 
-#### Jornada do Usuário: Márcio Rocha
+#### Jornada do Usuário: Bernardo Reis
 Um dia de ronda em São Paulo e o cuidado com o equipamento próprio.
 Durante uma pausa em sua ronda pela Rodovia dos Imigrantes, Márcio olha para o case de seu fuzil de precisão no banco traseiro da viatura. Ele nota que a luneta pode ter sofrido vibrações excessivas com o movimento do carro e decide: "Assim que encerrar o plantão, vou ao estande zerar esse equipamento".
 Ao final do serviço, ele se dirige ao clube de tiro. Ainda fardado, mas sem o peso da responsabilidade operacional, ele sente o alívio de estar em um ambiente controlado.
 Márcio monta o sistema rapidamente. Ele não quer perder tempo. Realiza o disparo, olha o feedback no notebook, faz os 4 cliques indicados e confirma a precisão. O sistema entregou o que ele precisava: confiança no primeiro disparo.
 De volta em casa, Márcio limpa seu armamento. Ele guarda o fuzil no cofre, sentindo-se pronto para o próximo chamado, sabendo que o equipamento está cirúrgico.
 
-### Alessandra Pinheiro, policial aposentada
+### Amália Silva, policial aposentada
 - Idade: 60 anos.
 - Status: Primária
 - Objetivos: Manter sua proficiência e precisão no tiro defensivo com total autonomia, sem depender da ajuda.
@@ -67,7 +67,7 @@ De volta em casa, Márcio limpa seu armamento. Ele guarda o fuzil no cofre, sent
 
 <img width="500" height="620" alt="Gemini_Generated_Image_ek5nscek5nscek5n (2)" src="https://github.com/user-attachments/assets/8f28e0bc-ddc0-4f22-9eaa-51b988d59e92" />
 
-#### Mapa de Empatia: Alessandra Pinheiro
+#### Mapa de Empatia: Amália Silva
 - O que PENSA e SENTE?
 Como a persona se sente e, relação ao mundo?
 Sente que, apesar da experiência como policial, a idade trouxe limitações visuais e físicas. Pensa que o processo de zerar uma luneta se tornou exaustivo e frustrante, pois hoje exige uma dependência de instrutores, tirando sua autonomia.
@@ -92,14 +92,14 @@ Medo de se tornar dependente dos outros, principalmente de desconhecidos, em uma
 O que acabaria com seus problemas?
 Necessidade de uma confirmação visual imediata na tela de um dispositivo próximo. Um sistema que faça o cálculo por ela de forma automática e entregue uma resposta simples, devolvendo sua independência no estande.
 
-#### Contexto de Uso: Alessandra Pinheiro
+#### Contexto de Uso: Amália Silva
 Ambiente Físico e Social: Alessandra frequenta o estande em horários mais calmos, buscando um ambiente seguro e bem iluminado. Por ter 60 anos e precisar de acompanhamento médico, ela evita carregar pesos excessivos ou fazer deslocamentos desnecessários entre a linha de tiro e o alvo.
 
 Interação e Equipamento: O foco dela é a simplicidade de manuseio. Ela utiliza o smartphone e o notebook para evitar o esforço físico de caminhar até o alvo para verificar o impacto. A transmissão via Wi-Fi é essencial para que ela possa ver tudo sentada ou em uma postura confortável, sem forçar as articulações.
 
 Narrativa de Uso: Imagine Alessandra no estande. Ela segue o tutorial visual do sistema para posicionar o smartphone. Após o disparo, em vez de tentar decifrar fórmulas balísticas complexas, ela vê na tela do notebook uma imagem clara do seu impacto e uma instrução visual simples (setas e números de cliques). O sistema funciona como um assistente que remove a barreira do "esforço físico" e da "tentativa e erro", tornando a prática do tiro um hobby relaxante e seguro para sua aposentadoria.
 
-#### Jornada do Usuário: Alessandra Pinheiro
+#### Jornada do Usuário: Amália Silva
 O resgate da autonomia no estande de tiro.
 Pela manhã, Alessandra decide ir ao clube de tiro para praticar. No entanto, ela sente uma leve ansiedade: sua luneta nova chegou, mas ela lembra que da última vez que precisou "zerar" um equipamento, levou quase 40 minutos caminhando dezenas de vezes até o alvo de 50 metros para medir os erros com uma régua. Ela voltou para casa frustrada, com os joelhos doendo e confusa com as anotações de conversão matemática.
 Ao chegar ao estande, ela escolhe uma baia isolada. Desta vez, ela monta o seu smartphone no tripé próximo ao alvo e volta para a bancada com seu notebook.
