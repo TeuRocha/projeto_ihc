@@ -73,4 +73,4 @@
 
 - Eficiência: Pelo menos 80% dos usuários testados devem conseguir chegar à tela final de feedback de correção (recebendo os cliques de ajuste em tela) sem necessitar de intervenção externa ou ajuda do moderador.
 
-- Satisfação positiva do usuário: Mensurada através do questionário de avaliação pós-teste (baseado no protocolo SUS - System Usability Scale). O sistema deve atingir uma pontuação média mínima de 75 pontos, indicando que os usuários consideram a interface amigável e vantajosa em relação ao método de calibração puramente manual.
+- Satisfação positiva do usuário: Mensurada ao final da sessão de observação através do grau de satisfação relatado pelo usuário para cada etapa do fluxo. O sistema deve atingir uma aprovação onde pelo menos 80% das tarefas avaliadas sejam classificadas como "Satisfeito" ou "Muito Satisfeito", indicando que os usuários consideram a interface amigável e vantajosa em relação ao método de calibração puramente manual.
