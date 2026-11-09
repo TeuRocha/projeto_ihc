@@ -53,13 +53,20 @@ Grupo D: Contexto da Tarefa, Dores e Motivações
   - Sistema de Ajuda (H10 de Nielsen): O grau de interesse em tutoriais define se a aplicação terá um sistema de Onboarding (telas de explicação no primeiro acesso) obrigatório ou opcional, e se haverá ícones de ajuda contextual ("?") ao lado de cada campo de entrada.
  
 ### Avaliação de Uso e Satisfação
-(Nota metodológica: Os dados a seguir são coletados exclusivamente após o usuário testar o sistema proposto, visando mensurar a eficácia da interface construída frente às necessidades mapeadas no Levantamento de Necessidades e Perfil de Usuário)
-- Taxa de Sucesso e Tempo: Medição de quanto tempo o usuário levou para configurar a distância no sistema comparado ao tempo relatado no questionário de perfil.
-- System Usability Scale (SUS): Aplicação de afirmações em escala Likert (Discordo Totalmente a Concordo Totalmente) para avaliar a carga cognitiva. Exemplos:
-  1. Achei o sistema desnecessariamente complexo.
-  2. Achei o sistema fácil de usar.
-  3. Achei que as instruções visuais (cliques/setas) substituíram a necessidade de cálculos mentais.
-- Decisão de Design que este dado responde: Identificar gargalos remanescentes no fluxo (ex: necessidade de incluir um botão "Voltar") e validar se a meta quantitativa de usabilidade (redução do tempo de calibração) foi atingida.
+Para mensurar a qualidade da interface construída, a avaliação de uso foi estruturada na coleta simultânea de métricas de desempenho (observadas) e na percepção de valor (relatada). Os dados coletados dividem-se em:
+
+Grupo A: Métricas de Eficiência e Eficácia (Observação Direta):
+- Tempo de Execução: Cronometragem do tempo que o usuário levou para configurar e calibrar o sistema comparado ao tempo médio do método tradicional (relatado no questionário de perfil).
+- Taxa de Sucesso e Erros: Contabilização de quantas tarefas foram concluídas com sucesso total ou parcial, e quantos deslizes (ex: cliques em locais errados) ocorreram durante o fluxo.
+
+Grupo B: Métricas de Satisfação e Percepção (Coleta Qualitativa):
+- Grau de Satisfação por Tarefa: Classificação atribuída pelo avaliador (Satisfeito, Neutro, Confuso, Muito Satisfeito) baseada nas reações e facilidade do usuário a cada etapa.
+- Entrevista Livre Pós-Teste (Debriefing): Ao término do fluxo, o avaliador realiza perguntas abertas direcionadas para capturar impressões subjetivas. Exemplos: "O que você achou do tempo gasto nesta calibração em relação ao seu método manual?" ou "Houve algum momento em que você não soube o que fazer na tela?".
+
+Grupo C: Decisões de Design que estes dados respondem:
+- Validar se a meta quantitativa principal do projeto (redução drástica do tempo de calibração e esforço cognitivo) foi atingida na prática.
+- Identificar gargalos de navegação remanescentes no fluxo (ex: a necessidade relatada de incluir um botão "Voltar").
+- Mapear a necessidade de adicionar recursos de Prevenção de Erros e Ajuda (ex: tooltips instrucionais) caso a taxa de erros na etapa de marcação do POA seja alta para usuários iniciantes.
 
 _________
 **Link de acesso:** [Questionário](https://docs.google.com/forms/d/e/1FAIpQLSdTzKR5pnkemryP6aMUYcu8cplQR8We-0h1Hy6UY7gMNr6BaQ/viewform?usp=dialog)
