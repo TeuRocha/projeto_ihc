@@ -55,16 +55,41 @@ Avaliação heurística, definida por Nielsen e Molich (1994), é um método de 
 
 | # | Heurística Violada | Problema | Local | Gravidade | Solução Recomendada |
 | :--: | :--- | :--- | :--- | :--: | :--- |
-| 1 | **H3 — Controle e Liberdade do Usuário** | Ausência de botão "Voltar" em quase todas as etapas do fluxo de calibração. Uma vez que o usuário avança de uma tela para a próxima (ex.: de Definir POA para Salvar Referência), não há como retornar à etapa anterior sem reiniciar o fluxo completo. Após confirmar e avançar, a ação se torna irreversível. | Telas: Salvar Referência, Confirmar POI, Consultar Feedback | **3 — Grave** | Implementar botão "Voltar" em cada etapa do fluxo, permitindo ao usuário retornar à etapa imediatamente anterior sem perder todo o progresso. O retorno crítico deve ser acompanhado de modal de confirmação ("Tem certeza? O progresso desta etapa será perdido.") para evitar cliques acidentais. |
-| 2 | **H5 — Prevenção de Erros** | Na tela "Setup de Calibração", o campo de entrada manual aceita qualquer valor numérico sem validação em tempo real. O usuário só recebe o aviso "valor inválido para calibração" após tentar confirmar a câmera, sem saber de antemão qual é a faixa de valores aceitos. | Tela: Setup de Calibração | **2 — Simples** | Exibir a faixa válida diretamente no rótulo do campo ("Distância (5m a 25m)") e ativar validação em tempo real com feedback imediato enquanto o usuário digita, destacando o campo em vermelho antes mesmo do envio. |
-| 3 | **H10 — Ajuda e Documentação** | O sistema não possui nenhuma seção de ajuda, guia de uso ou documentação acessível durante a interação. A ausência de ajuda contextual obriga o usuário iniciante a aprender por tentativa e erro. | Global — todas as telas | **2 — Simples** | Implementar um botão de ajuda (ícone "?") fixo no header, abrindo um painel com guia rápido da cena atual. Alternativamente, adicionar tooltips de instrução contextual descrevendo brevemente o que o usuário deve fazer. |
-| 4 | **H4 — Consistência e Padronização** | O botão principal de avanço utiliza rótulos diferentes em cada tela sem critério claro: "Confirmar POA", "Salvar Frame", "Ligar Câmera". Para ações que simplesmente avançam de etapa, rótulos variados causam incerteza. | Telas: Setup de Calibração, Definir POA, Salvar Referência | **1 — Cosmético** | Padronizar os rótulos dos botões de avanço contínuo (ex.: "Próxima Etapa"), reservando rótulos descritivos apenas para ações que persistem dados importantes (ex.: manter "Salvar Referência"). |
+| 1 | **H3 — Controle e Liberdade do Usuário** | Ausência de botão "Voltar" em quase todas as etapas do fluxo de calibração. Uma vez que o usuário avança de uma tela para a próxima (ex.: de Definir POA para Salvar Referência), não há como retornar à etapa anterior sem reiniciar o fluxo completo. Após confirmar e avançar, a ação se torna irreversível. | Telas: Definir POA, Salvar Referência, Confirmar POI, Consultar Feedback | **3 — Grave** | Implementar botão "Voltar" em cada etapa do fluxo, permitindo ao usuário retornar à etapa imediatamente anterior sem perder todo o progresso. O retorno crítico deve ser acompanhado de modal de confirmação ("Tem certeza? O progresso desta etapa será perdido.") para evitar cliques acidentais. |
+| 2 | **H4 — Consistência e Padronização** | O botão principal de avanço muda de posição em cada trecho do sistema, não tendo um posicionamento padronizado. | Telas: Definir POA, Salvar Referência | **1 — Cosmético** | Padronizar posicionamento dos botões, reduzindo carga cognitiva e tempo gasto utilizando o sistema, principalmente nas telas com foco em visão do alvo em tempo real. |
+| 3 | **H5 — Prevenção de Erros** | Na tela "Setup de Calibração", o campo de entrada manual aceita qualquer valor numérico sem validação em tempo real. O usuário não recebe aviso após ligar a câmera, sem saber de antemão qual é a faixa de valores aceitos. | Tela: Setup de Calibração | **2 — Simples** | Não permitir valores negativos, impossibilitando o erro do usuário. |
+| 4 | **H10 — Ajuda e Documentação** | O sistema não possui nenhuma seção de ajuda, guia de uso ou documentação acessível durante a interação. A ausência de ajuda contextual obriga o usuário iniciante a aprender por tentativa e erro. | Global — todas as telas | **2 — Simples** | Implementar um botão de ajuda (ícone "?") fixo no header, abrindo um painel com guia rápido da cena atual. Alternativamente, adicionar tooltips de instrução contextual descrevendo brevemente o que o usuário deve fazer. |
+
+### Imagens das Heurísticas Violadas
+
+#### H3 - Controle e Liberdade do Usuário
+> Nota: Ausência do botão voltar em diversas telas.
+> As telas seguem respectivamente: Definir POA, Salvar Referência, Confirmar POI, Consultar Feedback.
+<img width="1255" height="782" alt="image" src="https://github.com/user-attachments/assets/83fe4c75-3ac8-413a-8a98-acab7d7444f3" />
+falta
+
+#### H4 - Consistência e Padronização
+> Nota: Ausência de padronização nos botões que avançam etapas do sistema nas telas Definir POA e Salvar referência.
+> As telas seguem respectivamente: Definir POA, Salvar Referência.
+<img width="1255" height="782" alt="image" src="https://github.com/user-attachments/assets/3348534f-e070-42ea-b115-4e426576ad7f" />
+falta
+
+#### H5 - Prevenção de Erros
+> Nota: Ausência de limite para definir distância, permitindo valores negativos na tela Setup de Calibração.
+<img width="1255" height="782" alt="image" src="https://github.com/user-attachments/assets/0845cc82-571b-40b3-8ed8-fd9b468aca11" />
+
+#### H10 - Ajuda e Documentação
+> Nota: Ausência de seção ajuda em todas as etapas de calibração do sistema.
+> As telas seguem respectivamente: Setup de Calibração, Definir POA, Salvar Referência, Confirmar POI, Consultar Feedback.
+<img width="1255" height="782" alt="image" src="https://github.com/user-attachments/assets/32d32ac1-5da6-4586-a65a-1de05aac925b" />
+<img width="1255" height="782" alt="image" src="https://github.com/user-attachments/assets/a0b28c84-e390-47df-9279-7fcaf2835a87" />
+falta
 
 ---
 
 ## 2. Boas Práticas de Heurística — Heurísticas Atendidas
 
-> **Nota:** Esta seção tem caráter didático, registrando onde cada heurística foi satisfatoriamente aplicada. Algumas heurísticas (como H3) aparecem tanto como violação quanto como boa prática; nestes casos, o escopo de sucesso é pontual à tela mencionada, não faz parte de um sucesso dentro do fluxo global do sistema.
+> **Nota:** Esta seção tem caráter didático, registrando onde cada heurística foi satisfatoriamente aplicada. Algumas heurísticas (como H3 e H4) aparecem tanto como violação quanto como boa prática; nestes casos, o escopo de sucesso é pontual à tela mencionada, não faz parte de um sucesso dentro do fluxo global do sistema.
 
 | # | Heurística | Exemplo de Aplicação no Sistema |
 | :--: | :--- | :--- |
@@ -73,10 +98,55 @@ Avaliação heurística, definida por Nielsen e Molich (1994), é um método de 
 | H3 | **Controle e Liberdade do Usuário** | Na tela "Definir POA", o usuário pode redefinir o ponto de mira quantas vezes quiser antes de confirmar. O sistema não força um comprometimento prematuro com uma posição incorreta. |
 | H4 | **Consistência e Padronização** | O sistema mantém identidade visual consistente em todas as telas: mesma paleta de cores, mesma tipografia, mesmo espaçamento e mesmo padrão de mensagens de erro com texto descritivo. |
 | H5 | **Prevenção de Erros** | Na tela "Definir POA", o botão "Confirmar POA" permanece desabilitado enquanto nenhum ponto de mira tiver sido definido, impedindo que o usuário avance para a próxima etapa sem ter completado a ação necessária. |
-| H6 | **Reconhecimento em Lugar de Lembrança** | Durante o fluxo de calibração, as configurações iniciais (como a distância definida na primeira etapa) são mantidas pelo sistema e aplicadas automaticamente no cálculo balístico final. Além disso, a marcação do Ponto de Mira (POA) permanece visível como referência durante a captura do Ponto de Impacto (POI), desobrigando o usuário de memorizar suas ações anteriores. |
-| H7 | **Flexibilidade e Eficiência de Uso** | Na tela "Setup de Calibração", o sistema oferece tanto botões de setas para cima e para baixo, quanto campo de entrada manual para valores personalizados, entregando a forma de Setup de Calibração para o usuário. |
+| H6 | **Reconhecimento em Lugar de Lembrança** | Durante o fluxo de calibração, as configurações iniciais (como a distância definida na primeira etapa) são mantidas pelo sistema e aplicadas automaticamente no cálculo balístico final. Além disso, a marcação do Ponto de Mira (POA) permanece visível como referência durante a captura do Ponto de Impacto (POI), não obrigando memorização do usuário sobre suas ações anteriores. |
+| H7 | **Flexibilidade e Eficiência de Uso** | Na tela "Setup de Calibração", o sistema oferece tanto botões de setas para cima e para baixo, quanto campo de entrada manual para valores personalizados, permitindo o usuário escolher como definir distância. |
 | H8 | **Projeto Minimalista e Estético** | O design segue padrão dark mode com elementos técnicos e limpos, sem banners publicitários, animações desnecessárias ou informações irrelevantes. Cada elemento de interface presente na tela tem função direta na tarefa atual do usuário. |
 | H9 | **Auxiliar os Usuários a Reconhecer, Diagnosticar e Recuperar Erros** | Na tela "Confirmar POI", o sistema exibe mensagens de falha específicas e descritivas por tipo de problema: "Ruído de iluminação detectado. Tente estabilizar a luz.", "Detecção muito pequena. Verifique se o disparo acertou o alvo.", "Nenhum impacto detectado ou ruído excessivo. Verifique o alvo." — cada mensagem identifica o problema e orienta a ação de recuperação. |
+
+### Imagens das Boas Práticas de Heurísticas
+
+#### H1 - Visibilidade do Estado do Sistema
+> Nota: O sistema mantém identidade visual em todas as telas com relação à mesma paleta de cores, tipografia, espaçamento e mensagens de erro.
+
+
+#### H2 - Compatibilidade entre Sistema e Mundo Real
+> Nota: O sistema mantém identidade visual em todas as telas com relação à mesma paleta de cores, tipografia, espaçamento e mensagens de erro.
+
+
+#### H3 - Controle e Liberdade do Usuário
+> Nota: O sistema mantém identidade visual em todas as telas com relação à mesma paleta de cores, tipografia, espaçamento e mensagens de erro.
+
+
+#### H4 - Consistência e Padronização
+> Nota: O sistema mantém identidade visual em todas as telas com relação à mesma paleta de cores, tipografia, espaçamento e mensagens de erro.
+> As telas seguem respectivamente: Efetuar Login, Menu Principal, Setup de Calibração, Definir POA, Salvar Referência.
+<img width="1255" height="782" alt="image" src="https://github.com/user-attachments/assets/e70975e0-df90-4f19-b827-1cdfa72d73ff" />
+<img width="1255" height="782" alt="image" src="https://github.com/user-attachments/assets/05408000-d84e-4a27-87b1-46ffb15d65a4" />
+<img width="1255" height="782" alt="image" src="https://github.com/user-attachments/assets/0845cc82-571b-40b3-8ed8-fd9b468aca11" />
+<img width="1255" height="782" alt="image" src="https://github.com/user-attachments/assets/3348534f-e070-42ea-b115-4e426576ad7f" />
+falta
+
+#### H5 - Prevenção de Erros
+> Nota: O sistema mantém identidade visual em todas as telas com relação à mesma paleta de cores, tipografia, espaçamento e mensagens de erro.
+
+
+#### H6 - Reconhecimento em Lugar de Lembrança
+> Nota: O sistema mantém identidade visual em todas as telas com relação à mesma paleta de cores, tipografia, espaçamento e mensagens de erro.
+
+
+####  H7 - Flexibilidade e Eficiência de Uso
+> Nota: O sistema oferece diversas maneiras para o usuário escolher como definir distância na tela Setup de Calibração.
+<img width="1255" height="782" alt="image" src="https://github.com/user-attachments/assets/5638c7a5-d81b-4d73-8540-d945c44b8917" />
+
+#### H8 - Projeto Minimalista e Estético
+> Nota: O sistema segue padrão de design dark mode com visual técnico e limpo, sem informações desnecessária em todas as telas.
+> As telas seguem respectivamente: Efetuar Login, Menu Principal, Histórico de Disparos, Setup de Calibração, Definir POA, Salvar Referência, Confirmar POI, Consultar Feedback.
+<img width="1255" height="782" alt="image" src="https://github.com/user-attachments/assets/e70975e0-df90-4f19-b827-1cdfa72d73ff" />
+<img width="1255" height="782" alt="image" src="https://github.com/user-attachments/assets/05408000-d84e-4a27-87b1-46ffb15d65a4" />
+<img width="1255" height="782" alt="image" src="https://github.com/user-attachments/assets/e422eab6-d8b4-4c9c-b35a-9fbdbafb16d0" />
+<img width="1255" height="782" alt="image" src="https://github.com/user-attachments/assets/0845cc82-571b-40b3-8ed8-fd9b468aca11" />
+<img width="1255" height="782" alt="image" src="https://github.com/user-attachments/assets/3348534f-e070-42ea-b115-4e426576ad7f" />
+falta
 
 ---
 
