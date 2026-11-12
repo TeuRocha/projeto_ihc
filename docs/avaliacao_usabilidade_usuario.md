@@ -65,12 +65,11 @@ Foi entregue a cada participante o seguinte roteiro com as tarefas a serem cumpr
 - Tarefa 1: Crie uma conta e realize o login no sistema.
 - Tarefa 2: Iniciar uma nova sessão de calibração.
 - Tarefa 3: Configurar setup de calibração.
-- Tarefa 4: Posicione o alvo e ligue a câmera.
-- Tarefa 5: Defina o Ponto de Mira (POA) na tela.
-- Tarefa 6: Salve a imagem do alvo limpo (Referência).
-- Tarefa 7: Verifique se o sistema detectou corretamente o seu Ponto de Impacto (POI).
-- Tarefa 8: Consulte o feedback gerado e confirme se entendeu como ajustar sua mira óptica.
-- Tarefa 9: Encerre a sessão e volte ao menu.
+- Tarefa 4: Defina o Ponto de Mira (POA) na tela.
+- Tarefa 5: Salve a imagem do alvo limpo (Referência).
+- Tarefa 6: Verifique se o sistema detectou corretamente o seu Ponto de Impacto (POI).
+- Tarefa 7: Consulte o feedback gerado e confirme se entendeu como ajustar sua mira óptica.
+- Tarefa 8: Encerre a sessão e volte ao menu.
 
 **Passo 2 — Perfil dos participantes recrutados**
 
@@ -95,7 +94,9 @@ Foi entregue a cada participante o seguinte roteiro com as tarefas a serem cumpr
 ## 3. Dados Brutos e Registros em Vídeo
 Para garantir a transparência e a validade metodológica da avaliação (como estabelecido no método DECIDE), as sessões foram gravadas mediante consentimento.
 
-- Link da gravação: Participante 1 (Experiente):
+- Link da gravação: Participante 1 (Experiente): https://drive.google.com/file/d/1Dcavxn_2snScet9Kua0SQtitpxr8-kwd/view?usp=sharing
+
+
 - Link da gravação: Participante 2 (Iniciante):
 
 ---
@@ -106,19 +107,18 @@ Para garantir a transparência e a validade metodológica da avaliação (como e
 
 | Tarefa | Grau de Sucesso | Total de Erros | Tipos de Erros | Tempo Necessário | Grau de Satisfação |
 | :--: | :--- | :--: | :--- | :--- | :--- |
-| 1 — Login/Cadastro | Sucesso Total | 0 | — | ~1 min | Satisfeito |
-| 2 — Setup de Calibração | Sucesso Total | 0 | — | ~30 s | Satisfeito |
-| 3 — Preparar Alvo | Sucesso Total | 0 | — | ~1 min | Satisfeito |
-| 4 — Definir POA | Sucesso Parcial | 1 | Demora para entender que precisa esperar a detecção ArUco | ~1 min | Confusão Moderada |
-| 5 — Salvar Referência | Sucesso Total | 0 | — | ~20 s | Satisfeito |
-| 6 — Verificar POI | Sucesso Total | 0 | — | ~3 min (inclui disparo) | Satisfeito |
-| 7 — Consultar Feedback | Sucesso Total | 0 | — | ~30 s (inclui calibrar) | Muito Satisfeito |
-| 8 — Confirmar Acerto | Sucesso Total | 0 | — | ~1 min (inclui disparo) | Muito Satisfeito |
+| 1 — Login/Cadastro | Sucesso Total | 0 | — | ~00:40 seg. | Satisfeito |
+| 2 — Setup de Calibração | Sucesso Total | 0 | — | ~00:15 seg. | Muito Satisfeito |
+| 3 — Definir POA | Sucesso Total | 1 | - | ~00:15 seg. | Muito Satisfeito |
+| 4 — Salvar Referência | Sucesso Total | 0 | — | ~00:05 s | Satisfeito |
+| 5 — Verificar POI | Sucesso Parcial | 2 | Saiu da tela de verificação antes do esperado; Hesitação sobre como continuar | ~02:10 min (inclui disparo) | Confusão Moderada |
+| 6 — Consultar Feedback | Sucesso Total | 0 | — | ~35 s (inclui calibrar) | Muito Satisfeito |
+| 7 — Confirmar Acerto | Sucesso Parcial | 1 | Não retornou ao menu após confirmar acerto | ~01:20 min (inclui disparo) | Confusão Moderada |
 
 ---
 ### Respostas Relacionadas a Calibração do Formulário de Perfil dos Usuários
 
-**Participante:** Marcio Rocha
+**Participante:** Adriano Antonio de Novaes
 **Data:** 16/05/2026<br>
 
 ---
@@ -147,17 +147,17 @@ Para garantir a transparência e a validade metodológica da avaliação (como e
 
 ### 3. Quais dispositivos ou ferramentas você possui e utiliza rotineiramente para auxiliar na calibração do seu equipamento?
 ( ) Computador/Notebook<br>
-(X) Celular<br>
+( ) Celular<br>
 ( ) Tablet<br>
 ( ) Calculadora balística<br>
-(X) Binóculos<br>
-( ) Nenhum desses
+( ) Binóculos<br>
+(X) Nenhum desses
 
 ---
 
 ### 4. Com que frequência você pratica tiro esportivo (utilizando lunetas)?
-( ) Diariamente<br>
-(X) Semanalmente<br>
+(X) Diariamente<br>
+( ) Semanalmente<br>
 ( ) Mensalmente<br>
 ( ) Raramente (Menos de uma vez por mês)<br>
 ( ) Não pratico, desejo começar
@@ -167,13 +167,13 @@ Para garantir a transparência e a validade metodológica da avaliação (como e
 ### 5. Qual o seu nível de conhecimento sobre o processo de calibração de lunetas?
 ( ) Básico (Sei apenas o essencial)<br>
 ( ) Intermediário (Consigo calibrar, mas com dificuldade ou incerteza)<br>
-( ) Avançado (Calibro com precisão e compreendo os princípios)<br>
-(X) Especialista (Consigo ensinar o processo a outros)
+(X) Avançado (Calibro com precisão e compreendo os princípios)<br>
+( ) Especialista (Consigo ensinar o processo a outros)
 
 ---
 
 ### 6. Em média, quantas munições você gasta para 'zerar' ou recalibrar uma luneta em um novo equipamento/distância?
-Resposta: 10
+Resposta: 5
 
 ---
 
@@ -196,7 +196,7 @@ Resposta: 10
 ---
 
 ### 9. Quanto tempo você leva, em média, para realizar o processo completo de calibração em campo (do início ao fim)?
-00:30:00
+00:20:00
 
 ---
 
@@ -204,9 +204,15 @@ Resposta: 10
 (X) Cálculos de correção balística<br>
 ( ) Determinar o 'zero' ideal para diferentes distâncias<br>
 ( ) Ajustar as torres com precisão<br>
-( ) Gerenciar fatores ambientais (vento, temperatura)<br>
+(X) Gerenciar fatores ambientais (vento, temperatura)<br>
 ( ) Verificação da precisão após o ajuste<br>
 ( ) Nenhuma dificuldade significativa
+
+---
+
+## 5. Síntese da Avaliação e Conclusão
+
+Durante a entrevista pós-teste, o atirador experiente confirmou categoricamente o valor do sistema para a economia de tempo e insumos balísticos. O participante relatou: "Achei surreal... com 2 disparos o que eu demoraria com 5 ou 10 disparos pra fazer com 2 disparos a gente já conseguiu aproximar...". Ele também validou a utilidade do sistema para a curva de aprendizado, classificando-o como "pra quem tá começando isso aqui pro tiro é surreal...". No entanto, a observação direta revelou que a interface ainda gera hesitações de navegação em momentos críticos de transição de etapa (como a confusão entre afastar o alvo e confirmar POI), o que reforça a urgência de implementar os avisos em tela (tooltips de instrução) apontados na avaliação heurística, além do botão voltar que auxiliaria em casos como este visto no vídeo.
 
 ---
 
@@ -330,6 +336,4 @@ Você está sendo convidado(a) a participar de uma avaliação de usabilidade de
 
 Procedimentos: Você utilizará um protótipo do sistema para realizar tarefas pré-definidas em um ambiente controlado. Durante a sessão, o pesquisador observará suas interações.Riscos e Benefícios: Não há riscos físicos envolvidos no uso do software. O teste em estande segue as normas vigentes. O benefício é contribuir para a criação de uma tecnologia acessível.Privacidade e Gravação: Autorizo que minha tela e voz sejam gravadas e que os dados de desempenho (tempo, cliques, falas) sejam usados de forma anônima para fins acadêmicos no relatório final do projeto.Autonomia: A participação é voluntária. Você pode desistir a qualquer momento, sem nenhuma penalidade.
 
-( ) Concordo em participar da pesquisa e autorizo o uso dos meus dados.
-
-Assinatura do Participante e Data
+Eu, Adriano Antonio de Novaes, concordo em participar da pesquisa no dia 10/11/2026 e autorizo o uso dos meus dados e imagem.
